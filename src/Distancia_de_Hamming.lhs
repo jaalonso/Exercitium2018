@@ -1,4 +1,8 @@
-% chapter{Distancia de Hamming}
+%  Distancia_de_Hamming.hs
+%  Distancia de Hamming.
+%  José A. Alonso Jiménez <jalonso@us.es>
+%  Sevilla, 12 de Noviembre de 2018
+%  ---------------------------------------------------------------------
 
 \section*{Ejercicio propuesto el 10--11-18}
 

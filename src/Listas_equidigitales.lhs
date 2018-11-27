@@ -1,4 +1,8 @@
-% \chapter{Listas equidigitales}
+% Listas_equidigitales.hs
+% Listas equidigitales.
+% José A. Alonso Jiménez <jalonso@us.es>
+% Sevilla, 9 de noviembre de 2019
+% ---------------------------------------------------------------------
 
 \begin{comment}
 \begin{code}
