@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 5f390043ba3c9828536f65a3453ac4034b609c05b6f744bf3b192e98ca746b5f
+-- hash: 2b873a9595f376101e97006831481b8a7a0bb811543c5525493e2ca964b8e502
 
 name:           Exercitium2018
 version:        0.1.0.0
@@ -27,6 +27,7 @@ source-repository head
 
 library
   exposed-modules:
+      Distancia_de_Hamming
       Listas_equidigitales
   other-modules:
       Paths_Exercitium2018
@@ -44,6 +45,7 @@ test-suite spec
   type: exitcode-stdio-1.0
   main-is: Spec.hs
   other-modules:
+      Distancia_de_Hamming_Spec
       Listas_equidigitales_Spec
       Paths_Exercitium2018
   hs-source-dirs:

@@ -8,9 +8,13 @@ main :: IO ()
 main = hspec spec
 
 spec :: Spec
-spec = mapM_ verifica [ equidigital
-                      , equidigital2
-                      , equidigital3 ]
+spec = do
+  describe "Verificacion de equidigital" $
+    verifica equidigital
+  describe "Verificacion de equidigital2" $
+    verifica equidigital2
+  describe "Verificacion de equidigital3" $
+    verifica equidigital3
 
 verifica :: ([Int] -> Bool) -> Spec
 verifica f = do
