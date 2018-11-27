@@ -4,3 +4,10 @@ durante el curso 2018-19.
 Al final de cada semana se añadirán las soluciones de los problemas
 propuestos en la semana anterior.
 
+El libro es [[https://github.com/jaalonso/Exercitium2018/blob/master/texto/Exercitium2018.pdf][Exercitium (curso 2018-19)]] y está escrito mediante
+programación literaria en los siguiente directorios:
++ [[./texto][texto]] que contiene el código LaTeX para producir el libro y el libro
+  en pdf,
++ [[./src][src]] que contiene el código de los ejercicios en Haskell literario y
++ [[./test][test]] que contiene las pruebas del código Haskell.
+
