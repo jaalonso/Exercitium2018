@@ -1,0 +1,227 @@
+% Exercitium2018.tex
+% Exercitium (curso 2018-19)
+% José A. Alonso Jiménez <jalonso@us.es>
+% Sevilla, 26 de noviembre de 2018
+% ======================================================================
+
+\documentclass[a4paper,12pt,twoside]{book}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% § Paquetes adicionales
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Configuración para XeLaTeX
+\usepackage{fontspec}
+\usepackage{xltxtra}
+\defaultfontfeatures{Ligatures=TeX,Numbers=OldStyle}
+\setromanfont{DejaVu Sans}
+% \setsansfont{Arial}
+\setmonofont{DejaVu Sans Mono}[Scale={0.90}]
+
+% Notas: La lista de fuentes disponibles se obtiene con fc-list
+
+% \usepackage{ucs}
+% \usepackage[utf8]{inputenc}        % Acentos de UTF8
+\usepackage[spanish]{babel}        % Castellanización.
+% \usepackage[T1]{fontenc}           % Codificación T1 con European Computer
+%                                    % Modern.  
+% \usepackage{graphicx}
+% \usepackage{fancyvrb}              % Verbatim extendido
+% \usepackage{mathpazo}              % Fuentes semejante a palatino
+% \usepackage[scaled=.90]{helvet}
+% \usepackage{cmtt}
+% \renewcommand{\ttdefault}{cmtt}
+\usepackage{a4wide}
+\usepackage{minted}
+\usepackage{comment}
+
+\usepackage{titletoc}
+\dottedcontents{chapter}[0em]{}{9em}{1pc}
+% \dottedcontents{chapter}[<left>]{<above-code>}{<label width>}{<leader width>}
+
+\linespread{1.05}                  % Distancia entre líneas
+\setlength{\parindent}{2em}        % Indentación de comienzo de párrafo
+\setlength{\parskip}{1ex}          % Distancia entre párrafos
+% \deactivatetilden                  % Elima uso de ~ para la eñe
+\raggedbottom                      % No ajusta los espacios verticales.
+
+\usepackage[%
+  colorlinks=true,
+  urlcolor=blue,
+  % pdftex,
+  pdfauthor={José A. Alonso <jalonso@us.es>},%
+  pdftitle={Exercitium (curso 2018-19)},%
+  pdfstartview=FitH,%
+  bookmarks=false]{hyperref}      
+
+\setcounter{tocdepth}{1}
+\setcounter{secnumdepth}{4}
+
+\usepackage{tocstyle}
+\usetocstyle{KOMAlike}
+
+% \usepackage{tocloft}
+% \renewcommand\cftpartnumwidth{3cm}
+
+% \usepackage{minitoc}
+
+% \setlength\cftparskip{-2pt}
+% \setlength\cftbeforechapskip{0pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% § Cabeceras                                                              %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{fancyhdr}
+
+\addtolength{\headheight}{\baselineskip}
+
+\pagestyle{fancy}
+
+\cfoot{}
+
+\fancyhead{}
+\fancyhead[RE]{\mdseries\sffamily Exercitium (2018--19)}
+\fancyhead[LO]{\mdseries\sffamily \nouppercase{\leftmark}}
+\fancyhead[LE,RO]{\mdseries\sffamily \thepage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% § Definiciones
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input definiciones
+\def\mtctitle{Contenido}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% § Título
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{
+  {\LARGE Exercitium (curso 2018--19)} \\
+  {\Large Ejercicios de programación funcional con Haskell} }  
+\author{\href{http://www.cs.us.es/~jalonso}
+        {\Large José A. Alonso Jiménez}}
+\date{\vfill \hrule \vspace*{2mm}
+  \begin{tabular}{l}
+      \href{http://www.cs.us.es/glc}
+           {Grupo de Lógica Computacional} \\
+      \href{http://www.cs.us.es}
+           {Dpto. de Ciencias de la Computación e Inteligencia Artificial} \\
+      \href{http://www.us.es}
+           {Universidad de Sevilla}  \\
+      Sevilla, 23 de noviembre de 2018
+  \end{tabular}\hfill\mbox{}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% § Documento
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \includeonly{recusion_sobre_numeros_naturales}
+
+% \includexmp{licencia}
+
+\begin{document}
+% \dominitoc
+
+\maketitle
+\newpage
+
+\input{licenciaCC}
+\newpage
+
+\tableofcontents
+\clearpage
+
+
+\renewcommand{\chaptername}{Ejercicio}
+
+\chapter*{Introducción}
+
+Este libro es una recopilación de las soluciones de los ejercicios
+propuestos en el blog
+\href{https://www.glc.us.es/~jalonso/exercitium}{Exercitium}
+durante el curso 2018--19.
+
+El principal objetivo de Exercitium es servir de complemento a la
+asignatura de
+\href{https://www.cs.us.es/~jalonso/cursos/i1m-18}{Informática}
+de 1º del Grado en Matemáticas de la Universidad de Sevilla.
+
+Con los problemas de Exercitium, a diferencias de los de las
+\href{https://www.cs.us.es/~jalonso/cursos/i1m-18/ejercicios/ejercicios-I1M-2018.pdf}{relaciones},
+se pretende practicar con los conocimientos adquiridos durante todo el
+curso, mientras que con las relaciones están orientadas a los nuevos
+conocimientos.
+
+Habitualmente de cada ejercicio se muestra distintas soluciones y se
+compara sus eficiencias.
+
+La dinámica del blog es la siguiente: cada día, de lunes a viernes, se
+propone un ejercicio para que los alumnos escriban distintas soluciones
+en los comentarios. Pasado 7 días de la propuesta de cada ejercicio, se
+cierra los comentarios y se publica una selección de sus soluciones.
+
+Para conocer la cronología de los temas explicados se puede consultar el
+\href{https://www.glc.us.es/~jalonso/vestigium/category/curso/i1m/i1m2018}
+     {diario de clase}.
+
+En el libro se irán añadiendo semanalmente las soluciones de los
+ejercicios del curso.
+
+\chapter{Listas equidigitales}
+\entrada{Listas_equidigitales}
+
+% \chapter{Distancia de Hamming}
+% \entrada{Distancia_de_Hamming}
+% 
+% \chapter{Último dígito no nulo del factorial}
+% \entrada{Ultimo_digito_no_nulo_del_factorial}
+% 
+% \chapter{Diferencia simétrica}
+% \entrada{Diferencia_simetrica}
+% 
+% \chapter{Números libres de cuadrados}
+% \entrada{Numeros_libres_de_cuadrados}
+% 
+% \chapter{Capicúas productos de dos números de dos dígitos}
+% \entrada{Capicuas_productos_de_dos_numeros_de_dos_digitos}
+% 
+% % ---------------------------------------------------------------------
+% 
+% \chapter{Números autodescriptivos}
+% \entrada{Numeros_autodescriptivos}
+% 
+% \chapter{Número de parejas}
+% \entrada{Numeros_de_parejas}
+% 
+% \chapter{Reconocimiento de particiones}
+% \entrada{Reconocimiento_de_particiones}
+% 
+% \chapter{Relación definida por una partición}
+% \entrada{Relacion_definida_por_una_particion}
+% 
+% \chapter{Ceros finales del factorial}
+% \entrada{Ceros_finales_del_factorial}
+% 
+% \chapter{Números primos sumas de dos primos}
+% \entrada{/Numeros_primos_sumas_de_dos_primos}
+% 
+% \chapter{Suma de inversos de potencias de cuatro}
+% \entrada{/Suma_de_inversos_de_potencias_de_cuatro}
+% 
+% \chapter{Elemento solitario}
+% \entrada{/Elemento_solitario}
+% 
+% \chapter{Números colinas}
+% \entrada{/Numeros_colinas}
+% 
+% \chapter{Raíz cúbica entera}
+% \entrada{/Raiz_cubica_entera}
+
+\end{document}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% End: 
+

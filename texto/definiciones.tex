@@ -1,0 +1,32 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% § Código                                                                 %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newenvironment{descripcion}
+{\VerbatimEnvironment
+  \vspace*{-3ex}
+  \begin{minted}[
+    frame=lines,
+    framesep=2mm,
+    fontsize=\normalsize
+    ]{bash}}
+ {\end{minted}}
+
+\newenvironment{code}
+{\VerbatimEnvironment
+  \begin{minted}[
+    fontsize=\normalsize
+    ]{haskell}}
+ {\end{minted}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% § Definiciones                                                           %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\entrada}[1]{\input{../src/#1.lhs}}
+\newcommand{\note}[1]{}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% End: 
