@@ -1,5 +1,14 @@
-% \chapter*{Números libres de cuadrados}
+% Numeros_libres_de_cuadrados.hs
+% Números libres de cuadrados.
+% José A. Alonso Jiménez <jalonso@us.es>
+% Sevilla, 15 de noviembre de 2018
+% ---------------------------------------------------------------------
 
+\begin{comment}
+\begin{code}
+module Numeros_libres_de_cuadrados where   
+\end{code}
+\end{comment}
 \section*{Ejercicio propuesto el 15--11--18}
 
 Un número entero positivo es libre de cuadrados si no es divisible
