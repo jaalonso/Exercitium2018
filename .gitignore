@@ -37,3 +37,4 @@ cabal.sandbox.config
 dist
 dist-*
 pdte/
+texto/auto/
