@@ -1,0 +1,6 @@
+Recopilación de soluciones de los problemas propuestos en [[https://www.glc.us.es/~jalonso/exercitium/][Exercitium]]
+durante el curso 2018-19.
+
+Al final de cada semana se añadirán las soluciones de los problemas
+propuestos en la semana anterior.
+
