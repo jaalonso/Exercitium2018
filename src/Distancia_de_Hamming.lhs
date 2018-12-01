@@ -1,6 +1,6 @@
 %  Distancia_de_Hamming.hs
 %  Distancia de Hamming.
-%  José A. Alonso Jiménez <jalonso@us.es>
+%  José A. Alonso Jiménez
 %  Sevilla, 12 de Noviembre de 2018
 %  ---------------------------------------------------------------------
 

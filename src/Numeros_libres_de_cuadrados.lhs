@@ -1,6 +1,6 @@
 % Numeros_libres_de_cuadrados.hs
 % Números libres de cuadrados.
-% José A. Alonso Jiménez <jalonso@us.es>
+% José A. Alonso Jiménez
 % Sevilla, 15 de noviembre de 2018
 % ---------------------------------------------------------------------
 

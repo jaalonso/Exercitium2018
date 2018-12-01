@@ -1,6 +1,6 @@
 %  Ultimo_digito_no_nulo_del_factorial.hs
 %  Último dígito no nulo del factorial
-%  José A. Alonso Jiménez <jalonso@us.es>
+%  José A. Alonso Jiménez
 %  Sevilla, 13 de Noviembre de 2018
 %  ---------------------------------------------------------------------
 

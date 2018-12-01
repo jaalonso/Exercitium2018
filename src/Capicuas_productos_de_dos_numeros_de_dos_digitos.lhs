@@ -1,6 +1,6 @@
 % Capicuas_productos_de_dos_numeros_de_dos_digitos.hs
 % Capicúas productos de dos números de dos dígitos.
-% José A. Alonso Jiménez <jalonso@us.es>
+% José A. Alonso Jiménez
 % Sevilla, 16 de noviembre de 2018
 % ---------------------------------------------------------------------
 

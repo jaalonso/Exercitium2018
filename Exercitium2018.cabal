@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 716f309ac196b5f723cbdbdcdc204b656599070bb673188d3d3f2a18d502e8fd
+-- hash: 8ea43fd7af442a0fdc6df9b54d0a218d642401d7c7ecc4a121e95c69a6c6293d
 
 name:           Exercitium2018
 version:        0.1.0.0
@@ -28,10 +28,15 @@ source-repository head
 library
   exposed-modules:
       Capicuas_productos_de_dos_numeros_de_dos_digitos
+      Ceros_finales_del_factorial
       Diferencia_simetrica
       Distancia_de_Hamming
       Listas_equidigitales
+      Numeros_autodescriptivos
+      Numeros_de_parejas
       Numeros_libres_de_cuadrados
+      Reconocimiento_de_particiones
+      Relacion_definida_por_una_particion
       Ultimo_digito_no_nulo_del_factorial
   other-modules:
       Paths_Exercitium2018
@@ -50,10 +55,15 @@ test-suite spec
   main-is: Spec.hs
   other-modules:
       Capicuas_productos_de_dos_numeros_de_dos_digitos_Spec
+      Ceros_finales_del_factorial_Spec
       Diferencia_simetrica_Spec
       Distancia_de_Hamming_Spec
       Listas_equidigitales_Spec
+      Numeros_autodescriptivos_Spec
+      Numeros_de_parejas_Spec
       Numeros_libres_de_cuadrados_Spec
+      Reconocimiento_de_particiones_Spec
+      Relacion_definida_por_una_particion_Spec
       Ultimo_digito_no_nulo_del_factorial_Spec
       Paths_Exercitium2018
   hs-source-dirs:

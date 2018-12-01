@@ -1,6 +1,6 @@
 % Listas_equidigitales.hs
 % Listas equidigitales.
-% José A. Alonso Jiménez <jalonso@us.es>
+% José A. Alonso Jiménez
 % Sevilla, 9 de noviembre de 2019
 % ---------------------------------------------------------------------
 

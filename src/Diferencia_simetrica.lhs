@@ -1,6 +1,6 @@
 % Diferencia_simetrica.hs
 % Diferencia simétrica.
-% José A. Alonso Jiménez <jalonso@us.es>
+% José A. Alonso Jiménez
 % Sevilla, 14 de noviembre de 2018
 % ---------------------------------------------------------------------
 
