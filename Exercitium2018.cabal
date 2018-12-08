@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 8ea43fd7af442a0fdc6df9b54d0a218d642401d7c7ecc4a121e95c69a6c6293d
+-- hash: 54d3bbaa75e6987fd3f8c780bcb733239e5643f57dd5db0c4939fa56a9a89df9
 
 name:           Exercitium2018
 version:        0.1.0.0
@@ -31,12 +31,17 @@ library
       Ceros_finales_del_factorial
       Diferencia_simetrica
       Distancia_de_Hamming
+      Elemento_solitario
       Listas_equidigitales
       Numeros_autodescriptivos
+      Numeros_colinas
       Numeros_de_parejas
       Numeros_libres_de_cuadrados
+      Numeros_primos_sumas_de_dos_primos
+      Raiz_cubica_entera
       Reconocimiento_de_particiones
       Relacion_definida_por_una_particion
+      Suma_de_inversos_de_potencias_de_cuatro
       Ultimo_digito_no_nulo_del_factorial
   other-modules:
       Paths_Exercitium2018
@@ -48,6 +53,7 @@ library
     , base >=4.7 && <5
     , hspec
     , hspec-core
+    , primes
   default-language: Haskell2010
 
 test-suite spec
@@ -58,12 +64,17 @@ test-suite spec
       Ceros_finales_del_factorial_Spec
       Diferencia_simetrica_Spec
       Distancia_de_Hamming_Spec
+      Elemento_solitario_Spec
       Listas_equidigitales_Spec
       Numeros_autodescriptivos_Spec
+      Numeros_colinas_Spec
       Numeros_de_parejas_Spec
       Numeros_libres_de_cuadrados_Spec
+      Numeros_primos_sumas_de_dos_primos_Spec
+      Raiz_cubica_entera_Spec
       Reconocimiento_de_particiones_Spec
       Relacion_definida_por_una_particion_Spec
+      Suma_de_inversos_de_potencias_de_cuatro_Spec
       Ultimo_digito_no_nulo_del_factorial_Spec
       Paths_Exercitium2018
   hs-source-dirs:
@@ -75,4 +86,5 @@ test-suite spec
     , base
     , hspec
     , hspec-core
+    , primes
   default-language: Haskell2010

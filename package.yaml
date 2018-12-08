@@ -15,6 +15,7 @@ extra-source-files:
 dependencies:
   - hspec
   - hspec-core
+  - primes
   - QuickCheck >=2.9.2
 library:
   source-dirs: src
