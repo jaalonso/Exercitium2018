@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 54d3bbaa75e6987fd3f8c780bcb733239e5643f57dd5db0c4939fa56a9a89df9
+-- hash: b51520f517e55a3a8c0b96504be29e0b4d9ca4f0602b459044cbdd535ebdf6a4
 
 name:           Exercitium2018
 version:        0.1.0.0
@@ -33,11 +33,13 @@ library
       Distancia_de_Hamming
       Elemento_solitario
       Listas_equidigitales
+      Numeracion_de_arboles_binarios_completos
       Numeros_autodescriptivos
       Numeros_colinas
       Numeros_de_parejas
       Numeros_libres_de_cuadrados
       Numeros_primos_sumas_de_dos_primos
+      Posiciones_en_arboles_binarios
       Raiz_cubica_entera
       Reconocimiento_de_particiones
       Relacion_definida_por_una_particion
@@ -71,6 +73,7 @@ test-suite spec
       Numeros_de_parejas_Spec
       Numeros_libres_de_cuadrados_Spec
       Numeros_primos_sumas_de_dos_primos_Spec
+      Posiciones_en_arboles_binarios_Spec
       Raiz_cubica_entera_Spec
       Reconocimiento_de_particiones_Spec
       Relacion_definida_por_una_particion_Spec

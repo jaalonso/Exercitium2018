@@ -10,7 +10,7 @@ module Capicuas_productos_de_dos_numeros_de_dos_digitos where
 \end{code}
 \end{comment}
 
-\section*{Ejercicio propuesto el 16--11--18}
+\section*{Ejercicio propuesto el 16 de noviembre de 2018}
 
 El número 9009 es capicúa y es producto de dos números de dos dígitos,
 pues 9009 = 91x99. 
