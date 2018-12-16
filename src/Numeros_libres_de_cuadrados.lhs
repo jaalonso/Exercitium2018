@@ -4,12 +4,13 @@
 % Sevilla, 15 de noviembre de 2018
 % ---------------------------------------------------------------------
 
+\section*{Ejercicio propuesto el 15 de noviembre de 2018}
+
 \begin{comment}
 \begin{code}
 module Numeros_libres_de_cuadrados where   
 \end{code}
 \end{comment}
-\section*{Ejercicio propuesto el 15--11--18}
 
 Un número entero positivo es libre de cuadrados si no es divisible
 por el cuadrado de ningún entero mayor que 1. Por ejemplo, 70 es

@@ -4,7 +4,7 @@
 %  Sevilla, 12 de Noviembre de 2018
 %  ---------------------------------------------------------------------
 
-\section*{Ejercicio propuesto el 10--11-18}
+\section*{Ejercicio propuesto el 12 de Noviembre de 2018}
 
 \begin{comment}
 \begin{code}

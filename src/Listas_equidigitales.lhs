@@ -1,7 +1,7 @@
 % Listas_equidigitales.hs
 % Listas equidigitales.
 % José A. Alonso Jiménez
-% Sevilla, 9 de noviembre de 2019
+% Sevilla, 9 de noviembre de 2018
 % ---------------------------------------------------------------------
 
 \begin{comment}
@@ -10,7 +10,7 @@ module Listas_equidigitales where
 \end{code}
 \end{comment}
 
-\section*{Ejercicio propuesto el 9--11--18}
+\section*{Ejercicio propuesto el 9 de noviembre de 2018}
 
 Una lista de números naturales es equidigital si todos sus elementos
 tienen el mismo número de dígitos.

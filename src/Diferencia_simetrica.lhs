@@ -10,7 +10,7 @@ module Diferencia_simetrica where
 \end{code}
 \end{comment}
 
-\section*{Ejercicio propuesto el 14--11--18}
+\section*{Ejercicio propuesto el 14 de noviembre de 2018}
 
 La \href{http://bit.ly/1Rdcqxs}{diferencia simétrica} de dos conjuntos es
 el conjunto cuyos elementos son aquellos que pertenecen a alguno de

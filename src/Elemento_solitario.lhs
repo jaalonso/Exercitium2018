@@ -1,7 +1,7 @@
 % Elemento_solitario.hs
 % Elemento solitario.
 % José A. Alonso Jiménez
-% Sevilla, 25 de Noviembre de 2018
+% Sevilla, 28 de Noviembre de 2018
 % ---------------------------------------------------------------------
 
 \begin{comment}
@@ -10,7 +10,7 @@ module Elemento_solitario where
 \end{code}
 \end{comment}
 
-\section*{Ejercicio propuesto el 28--11--18}
+\section*{Ejercicio propuesto el 28 de Noviembre de 2018}
 
 Definir la función
 \begin{descripcion}

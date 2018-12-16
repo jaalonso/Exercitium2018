@@ -4,13 +4,13 @@
 % Sevilla, 26 de Noviembre de 2018
 % ---------------------------------------------------------------------
 
+\section*{Ejercicio propuesto el 26 de Noviembre de 2018}
+
 \begin{comment}
 \begin{code}
 module Numeros_primos_sumas_de_dos_primos where
 \end{code}
 \end{comment}
-
-\section*{Ejercicio propuesto el 26--11--18}
 
 Definir las funciones
 \begin{descripcion}

@@ -1,16 +1,16 @@
 % Reconocimiento_de_particiones.hs
 % Reconocimiento de particiones.
 % José A. Alonso Jiménez
-% Sevilla, 21 de Noviembre de 2018
+% Sevilla, 21 de noviembre de 2018
 % ---------------------------------------------------------------------
+
+\section*{Ejercicio propuesto el 21 de Noviembre de 2018}
 
 \begin{comment}
 \begin{code}
 module Reconocimiento_de_particiones where
 \end{code}
 \end{comment}
-
-\section*{Ejercicio propuesto el 21--11--18}
 
 Una \href{http://bit.ly/2Dw2GB4}{partición} de un conjunto es una división
 del mismo en subconjuntos disjuntos no vacíos.

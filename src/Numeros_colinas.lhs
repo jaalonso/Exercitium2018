@@ -1,7 +1,7 @@
 % Numeros_colinas.hs
 % Números colinas.
 % José A. Alonso Jiménez
-% Sevilla, 25 de Noviembre de 2018
+% Sevilla, 29 de Noviembre de 2018
 % ---------------------------------------------------------------------
 
 \begin{comment}
@@ -10,7 +10,7 @@ module Numeros_colinas where
 \end{code}
 \end{comment}
 
-\section*{Ejercicio propuesto el 29--11--18}
+\section*{Ejercicio propuesto el 29 de Noviembre de 2018}
 
 Se dice que un número natural n es una colina si su primer dígito es
 igual a su último dígito, los primeros dígitos son estrictamente

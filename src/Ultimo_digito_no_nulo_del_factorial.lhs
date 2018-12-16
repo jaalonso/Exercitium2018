@@ -1,16 +1,16 @@
 %  Ultimo_digito_no_nulo_del_factorial.hs
 %  Último dígito no nulo del factorial
 %  José A. Alonso Jiménez
-%  Sevilla, 13 de Noviembre de 2018
+%  Sevilla, 13 de noviembre de 2018
 %  ---------------------------------------------------------------------
+
+\section*{Ejercicio propuesto el 13 de noviembre de 2018}
 
 \begin{comment}
 \begin{code}
 module Ultimo_digito_no_nulo_del_factorial where
 \end{code}
 \end{comment}
-
-\section*{Ejercicio propuesto el 13--11--18}
 
 El factorial de 7 es $7! = 1 * 2 * 3 * 4 * 5 * 6 * 7 = 5040$. 
 Por tanto, el último dígito no nulo del factorial de 7 es 4.

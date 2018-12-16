@@ -1,16 +1,16 @@
 % Suma_de_inversos_de_potencias_de_cuatro.hs
 % Suma de inversos de potencias de cuatro.
 % José A. Alonso Jiménez
-% Sevilla, 25 de Noviembre de 2018
+% Sevilla, 27 de noviembre de 2018
 % ---------------------------------------------------------------------
+
+\section*{Ejercicio propuesto el 27 de noviembre de 2018}
 
 \begin{comment}
 \begin{code}
 module Suma_de_inversos_de_potencias_de_cuatro where
 \end{code}
 \end{comment}
-
-\section*{Ejercicio propuesto el 27--11--18}
 
 Esta semana se ha publicado en \href{http://bit.ly/2Qg4qVQ}{Twitter} una
 demostración visual de que

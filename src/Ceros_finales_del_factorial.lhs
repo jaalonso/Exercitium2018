@@ -1,7 +1,7 @@
 % Ceros_finales_del_factorial.hs
 % Ceros finales del factorial.
 % José A. Alonso Jiménez
-% Sevilla, 23 de Noviembre de 2018
+% Sevilla, 23 de noviembre de 2018
 % ---------------------------------------------------------------------
 
 \begin{comment}
@@ -10,7 +10,7 @@ module Ceros_finales_del_factorial where
 \end{code}
 \end{comment}
 
-\section*{Ejercicio propuesto el 23--11--18}
+\section*{Ejercicio propuesto el 23 de noviembre de 2018}
 
 Definir la función
 \begin{descripcion}

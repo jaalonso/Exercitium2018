@@ -1,16 +1,16 @@
 % Raiz_cubica__entera.hs
 % Raíz cúbica entera.
 % José A. Alonso Jiménez
-% Sevilla, 14 de noviembre de 2018
+% Sevilla, 30 de noviembre de 2018
 % ---------------------------------------------------------------------
+
+\section*{Ejercicio propuesto el 30 de noviembre de 2018}
 
 \begin{comment}
 \begin{code}
 module Raiz_cubica_entera where
 \end{code}
 \end{comment}
-
-\section*{Ejercicio propuesto el 30--11--18}
 
 Un número x es un cubo si existe un y tal que $x = y^3$. Por ejemplo, 8
 es un cubo porque $8 = 2^3$.

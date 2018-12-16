@@ -10,7 +10,7 @@ module Numeros_de_parejas where
 \end{code}
 \end{comment}
 
-\section*{Ejercicio propuesto el 20--11--18}
+\section*{Ejercicio propuesto el 20 de Noviembre de 2018}
 
 Definir la función
 \begin{descripcion}

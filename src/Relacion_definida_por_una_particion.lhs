@@ -1,16 +1,16 @@
 % Relacion_definida_por_una_particion.hs
 % Relación definida por una partición.
 % José A. Alonso Jiménez
-% Sevilla, 22 de Noviembre de 2018
+% Sevilla, 22 de noviembre de 2018
 % ---------------------------------------------------------------------
+
+\section*{Ejercicio propuesto el 22 de noviembre de 2018}
 
 \begin{comment}
 \begin{code}
 module Relacion_definida_por_una_particion where
 \end{code}
 \end{comment}
-
-\section*{Ejercicio propuesto el 22--11--18}
 
 Dos elementos están
 \href{http://bit.ly/2Q1FzVD}{relacionados por una partición}
