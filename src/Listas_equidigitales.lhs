@@ -9,8 +9,6 @@
 module Listas_equidigitales where
 \end{code}
 \end{comment}
-\note{
-}
 
 \section*{Ejercicio propuesto el 9--11--18}
 
