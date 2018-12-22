@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 1f3680303e662f4d73c4a3169793e5cdc8bde0461c953815b8d298a9a4bf54a9
+-- hash: 823d026c03581586eda6b02a6cd76efb630ad2ca636b9fa84bd817174ac01e3a
 
 name:           Exercitium2018
 version:        0.1.0.0
@@ -27,12 +27,15 @@ source-repository head
 
 library
   exposed-modules:
+      Aproximacion_entre_pi_y_e
       Capicuas_productos_de_dos_numeros_de_dos_digitos
       Ceros_finales_del_factorial
       Diferencia_simetrica
       Distancia_de_Hamming
+      Elemento_del_arbol_binario_completo_segun_su_posicion
       Elemento_solitario
       Listas_equidigitales
+      Menor_contenedor_de_primos
       Numeracion_de_arboles_binarios_completos
       Numeros_autodescriptivos
       Numeros_colinas
@@ -63,12 +66,15 @@ test-suite spec
   type: exitcode-stdio-1.0
   main-is: Spec.hs
   other-modules:
+      Aproximacion_entre_pi_y_e_Spec
       Capicuas_productos_de_dos_numeros_de_dos_digitos_Spec
       Ceros_finales_del_factorial_Spec
       Diferencia_simetrica_Spec
       Distancia_de_Hamming_Spec
+      Elemento_del_arbol_binario_completo_segun_su_posicion_Spec
       Elemento_solitario_Spec
       Listas_equidigitales_Spec
+      Menor_contenedor_de_primos_Spec
       Numeros_autodescriptivos_Spec
       Numeros_colinas_Spec
       Numeros_de_parejas_Spec
