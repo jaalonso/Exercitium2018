@@ -1,0 +1,19 @@
+module ?mod_Spec (main, spec) where
+
+import ?mod
+import Test.Hspec
+import Test.QuickCheck
+
+main :: IO ()
+main = hspec spec
+
+spec :: Spec
+spec = do
+  describe "Verificacion de ?fun" $
+    verifica ?fun
+  describe "Verificacion de ?fun2" $
+    verifica ?fun2
+  describe "Verificacion de ?fun3" $
+    verifica ?fun3
+
+  

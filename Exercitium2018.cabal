@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: cbb68cc23bc3124d34e04e8e3255402a88eafeb2ebb488f385211fdf5374bf95
+-- hash: 7ea967455c351b322de9cd9a4d535a1e628fa3d8d5612376aaeceadaa1d8019c
 
 name:           Exercitium2018
 version:        0.1.0.0
@@ -37,6 +37,7 @@ library
       Elemento_solitario
       Entre_dos_conjuntos
       Expresiones_aritméticas_generales
+      Intercambio_de_la_primera_y_ultima_columna_de_una_matriz
       Listas_equidigitales
       Menor_contenedor_de_primos
       Numeracion_de_arboles_binarios_completos
@@ -80,6 +81,7 @@ test-suite spec
       Elemento_solitario_Spec
       Entre_dos_conjuntos_Spec
       Expresiones_aritméticas_generales_Spec
+      Intercambio_de_la_primera_y_ultima_columna_de_una_matriz_Spec
       Listas_equidigitales_Spec
       Menor_contenedor_de_primos_Spec
       Numeros_autodescriptivos_Spec
