@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 7ea967455c351b322de9cd9a4d535a1e628fa3d8d5612376aaeceadaa1d8019c
+-- hash: f4512aeefd9421f8604ac2ff1c980c5b50b9cdd00873bcca3dc13bd8d5f3d313
 
 name:           Exercitium2018
 version:        0.1.0.0
@@ -37,6 +37,7 @@ library
       Elemento_solitario
       Entre_dos_conjuntos
       Expresiones_aritméticas_generales
+      Grado_exponencial
       Intercambio_de_la_primera_y_ultima_columna_de_una_matriz
       Listas_equidigitales
       Menor_contenedor_de_primos
@@ -45,6 +46,7 @@ library
       Numeros_colinas
       Numeros_de_parejas
       Numeros_libres_de_cuadrados
+      Numeros_primos_de_Pierpont
       Numeros_primos_sumas_de_dos_primos
       Posiciones_en_arboles_binarios
       Posiciones_en_arboles_binarios_completos
@@ -81,6 +83,7 @@ test-suite spec
       Elemento_solitario_Spec
       Entre_dos_conjuntos_Spec
       Expresiones_aritméticas_generales_Spec
+      Grado_exponencial_Spec
       Intercambio_de_la_primera_y_ultima_columna_de_una_matriz_Spec
       Listas_equidigitales_Spec
       Menor_contenedor_de_primos_Spec
@@ -88,6 +91,7 @@ test-suite spec
       Numeros_colinas_Spec
       Numeros_de_parejas_Spec
       Numeros_libres_de_cuadrados_Spec
+      Numeros_primos_de_Pierpont_Spec
       Numeros_primos_sumas_de_dos_primos_Spec
       Posiciones_en_arboles_binarios_completos_Spec
       Posiciones_en_arboles_binarios_Spec
