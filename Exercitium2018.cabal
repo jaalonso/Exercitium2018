@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 73d09802db34283085afe3854dfd7b24d2280be79d319a88a99e03093d32cc07
+-- hash: 512dc4cf7dec07909d6adcfa00f7ccaed16bbdf5371331dc69b7a6f9a15af434
 
 name:           Exercitium2018
 version:        0.1.0.0
@@ -29,6 +29,7 @@ library
   exposed-modules:
       Aproximacion_entre_pi_y_e
       Arbol_de_computacion_de_Fibonacci
+      Arbol_de_divisores
       Capicuas_productos_de_dos_numeros_de_dos_digitos
       Ceros_finales_del_factorial
       Diferencia_simetrica
