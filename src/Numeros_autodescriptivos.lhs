@@ -10,7 +10,7 @@ module Numeros_autodescriptivos where
 \end{code}
 \end{comment}
 
-\section*{Ejercicio propuesto el 19 de Noviembre de 2018}
+\section*{Enunciado}
 
 Un número n es autodescriptivo cuando para cada posición k de n
 (empezando a contar las posiciones a partir de 0), el dígito en la

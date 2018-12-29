@@ -10,7 +10,7 @@ module Listas_equidigitales where
 \end{code}
 \end{comment}
 
-\section*{Ejercicio propuesto el 9 de noviembre de 2018}
+\section*{Enunciado}
 
 Una lista de números naturales es equidigital si todos sus elementos
 tienen el mismo número de dígitos.

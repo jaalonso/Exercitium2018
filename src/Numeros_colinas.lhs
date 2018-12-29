@@ -10,7 +10,7 @@ module Numeros_colinas where
 \end{code}
 \end{comment}
 
-\section*{Ejercicio propuesto el 29 de Noviembre de 2018}
+\section*{Enunciado}
 
 Se dice que un número natural n es una colina si su primer dígito es
 igual a su último dígito, los primeros dígitos son estrictamente

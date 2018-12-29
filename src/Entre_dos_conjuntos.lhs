@@ -4,7 +4,7 @@
 % Sevilla, 12 de diciembre de 2018
 % ---------------------------------------------------------------------
 
-\section*{Ejercicio propuesto el 12 de diciembre de 2018}
+\section*{Enunciado}
 
 \begin{comment}
 \begin{code}

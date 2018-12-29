@@ -10,7 +10,7 @@ module Elemento_del_arbol_binario_completo_segun_su_posicion where
 \end{code}
 \end{comment}
 
-\section*{Ejercicio propuesto el 6 de diciembre de 2018}
+\section*{Enunciado}
 
 Un \href{http://bit.ly/2DUr53g}{árbol binario completo} es un árbol
 binario que tiene todos los nodos posibles hasta el penúltimo nivel,

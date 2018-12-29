@@ -4,7 +4,7 @@
 % Sevilla, 27 de noviembre de 2018
 % ---------------------------------------------------------------------
 
-\section*{Ejercicio propuesto el 27 de noviembre de 2018}
+\section*{Enunciado}
 
 \begin{comment}
 \begin{code}

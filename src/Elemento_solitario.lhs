@@ -10,7 +10,7 @@ module Elemento_solitario where
 \end{code}
 \end{comment}
 
-\section*{Ejercicio propuesto el 28 de Noviembre de 2018}
+\section*{Enunciado}
 
 Definir la función
 \begin{descripcion}

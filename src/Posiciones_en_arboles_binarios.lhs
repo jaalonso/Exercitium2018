@@ -10,7 +10,7 @@ module Posiciones_en_arboles_binarios where
 \end{code}
 \end{comment}
 
-\section*{Ejercicio propuesto el 2 de diciembre de 2018}
+\section*{Enunciado}
 
 Los árboles binarios con datos en los nodos se definen por
 \begin{descripcion}

@@ -10,7 +10,7 @@ module Aproximacion_entre_pi_y_e where
 \end{code}
 \end{comment}
 
-\section*{Ejercicio propuesto el 7 de diciembre de 2018}
+\section*{Enunciado}
 
 El día 11 de noviembre, se publicó en la cuenta de Twitter de
 \href{http://bit.ly/2DNfhzS}{Fermat's Library} la siguiente curiosa

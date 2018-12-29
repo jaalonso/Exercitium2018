@@ -10,7 +10,7 @@ module Ceros_finales_del_factorial where
 \end{code}
 \end{comment}
 
-\section*{Ejercicio propuesto el 23 de noviembre de 2018}
+\section*{Enunciado}
 
 Definir la función
 \begin{descripcion}
