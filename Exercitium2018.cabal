@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 2a7cf9dd981194945b60945dc4580aec7ed1f1922847a3f8a96f0a4938670fa7
+-- hash: 069d435bca1ca53e7bf6f07e6e47ec921fb09a532e3f78aa0c5f3dfff142e7d1
 
 name:           Exercitium2018
 version:        0.1.0.0
@@ -45,6 +45,7 @@ library
       Listas_equidigitales
       Menor_contenedor_de_primos
       Numeracion_de_arboles_binarios_completos
+      Numero_de_divisores_compuestos
       Numeros_autodescriptivos
       Numeros_colinas
       Numeros_de_parejas
