@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 069d435bca1ca53e7bf6f07e6e47ec921fb09a532e3f78aa0c5f3dfff142e7d1
+-- hash: 5878c6d81220a01972d034d8e166689c143a5f649e49c9f0b13ac1634cc8a825
 
 name:           Exercitium2018
 version:        0.1.0.0
@@ -59,6 +59,7 @@ library
       Relacion_definida_por_una_particion
       Suma_de_inversos_de_potencias_de_cuatro
       Superacion_de_limites
+      Tablas_de_operaciones_binarias
       Ultimo_digito_no_nulo_del_factorial
   other-modules:
       Paths_Exercitium2018
@@ -94,6 +95,7 @@ test-suite spec
       Intercambio_de_la_primera_y_ultima_columna_de_una_matriz_Spec
       Listas_equidigitales_Spec
       Menor_contenedor_de_primos_Spec
+      Numero_de_divisores_compuestos_Spec
       Numeros_autodescriptivos_Spec
       Numeros_colinas_Spec
       Numeros_de_parejas_Spec
@@ -107,6 +109,7 @@ test-suite spec
       Relacion_definida_por_una_particion_Spec
       Suma_de_inversos_de_potencias_de_cuatro_Spec
       Superacion_de_limites_Spec
+      Tablas_de_operaciones_binarias_Spec
       Ultimo_digito_no_nulo_del_factorial_Spec
       Paths_Exercitium2018
   hs-source-dirs:
