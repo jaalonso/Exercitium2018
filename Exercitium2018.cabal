@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 5878c6d81220a01972d034d8e166689c143a5f649e49c9f0b13ac1634cc8a825
+-- hash: aa0a40bdf33c1918828bcb189385ae4903d9ca7c0b0fe9f9d97bce59218a65c4
 
 name:           Exercitium2018
 version:        0.1.0.0
@@ -55,6 +55,7 @@ library
       Posiciones_en_arboles_binarios
       Posiciones_en_arboles_binarios_completos
       Raiz_cubica_entera
+      Reconocimiento_de_conmutatividad
       Reconocimiento_de_particiones
       Relacion_definida_por_una_particion
       Suma_de_inversos_de_potencias_de_cuatro
@@ -105,6 +106,7 @@ test-suite spec
       Posiciones_en_arboles_binarios_completos_Spec
       Posiciones_en_arboles_binarios_Spec
       Raiz_cubica_entera_Spec
+      Reconocimiento_de_conmutatividad_Spec
       Reconocimiento_de_particiones_Spec
       Relacion_definida_por_una_particion_Spec
       Suma_de_inversos_de_potencias_de_cuatro_Spec
