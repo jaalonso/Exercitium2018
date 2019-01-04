@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: aa0a40bdf33c1918828bcb189385ae4903d9ca7c0b0fe9f9d97bce59218a65c4
+-- hash: ed05469412e0e780bcb4bd8f0a4fd14860ba87d4636514e8b9df392fe672b656
 
 name:           Exercitium2018
 version:        0.1.0.0
@@ -30,6 +30,7 @@ library
       Aproximacion_entre_pi_y_e
       Arbol_de_computacion_de_Fibonacci
       Arbol_de_divisores
+      Arbol_de_subconjuntos
       Capicuas_productos_de_dos_numeros_de_dos_digitos
       Ceros_finales_del_factorial
       Diferencia_simetrica
@@ -82,6 +83,7 @@ test-suite spec
       Aproximacion_entre_pi_y_e_Spec
       Arbol_de_computacion_de_Fibonacci_Spec
       Arbol_de_divisores_Spec
+      Arbol_de_subconjuntos_Spec
       Capicuas_productos_de_dos_numeros_de_dos_digitos_Spec
       Ceros_finales_del_factorial_Spec
       Diferencia_simetrica_Spec
