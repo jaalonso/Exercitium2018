@@ -1,8 +1,10 @@
--- This file has been generated from package.yaml by hpack version 0.28.2.
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.1.
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: ed05469412e0e780bcb4bd8f0a4fd14860ba87d4636514e8b9df392fe672b656
+-- hash: 25daeccabcf1b3fd42fac900234ff3b313cddd5283e4e0c8bdac1c88b7ca5b25
 
 name:           Exercitium2018
 version:        0.1.0.0
@@ -17,7 +19,6 @@ copyright:      Jose A. Alonso
 license:        BSD3
 license-file:   LICENSE
 build-type:     Simple
-cabal-version:  >= 1.10
 extra-source-files:
     README.org
 
@@ -37,6 +38,7 @@ library
       Distancia_de_Hamming
       Divisores_compuestos
       Divisores_propios_maximales
+      El_teorema_de_Navidad_de_Fermat
       Elemento_del_arbol_binario_completo_segun_su_posicion
       Elemento_solitario
       Entre_dos_conjuntos
@@ -90,6 +92,7 @@ test-suite spec
       Distancia_de_Hamming_Spec
       Divisores_compuestos_Spec
       Divisores_propios_maximales_Spec
+      El_teorema_de_Navidad_de_Fermat_Spec
       Elemento_del_arbol_binario_completo_segun_su_posicion_Spec
       Elemento_solitario_Spec
       Entre_dos_conjuntos_Spec
