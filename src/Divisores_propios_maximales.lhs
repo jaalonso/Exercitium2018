@@ -4,6 +4,12 @@
 % Sevilla, 20 de diciembre de 2018
 % ---------------------------------------------------------------------
 
+\epigraph{\textit{Moneda que está en la mano \\
+    quizá se deba guardar; \\
+    la monedita del alma \\
+    se pierde si no se da.}}
+{Antonio Machado}
+
 \section*{Enunciado}
 
 \begin{comment}
@@ -19,26 +25,26 @@ ejemplo, 15 es un divisor propio maximal de 30, pero 5 no lo es.
 
 Definir las funciones
 \begin{descripcion} 
-   divisoresPropiosMaximales  :: Integer -> [Integer]
-   nDivisoresPropiosMaximales :: Integer -> Integer
+  divisoresPropiosMaximales  :: Integer -> [Integer]
+  nDivisoresPropiosMaximales :: Integer -> Integer
 \end{descripcion} 
 tales que
 \begin{itemize}
 \item (divisoresPropiosMaximales x) es la lista de los divisores propios
   maximales de x. Por ejemplo,
 \begin{descripcion}   
-     divisoresPropiosMaximales 30   ==  [6,10,15]
-     divisoresPropiosMaximales 420  ==  [60,84,140,210]
-     divisoresPropiosMaximales 7    ==  [1]
-     length (divisoresPropiosMaximales (product [1..3*10^4])) == 3245
+  divisoresPropiosMaximales 30   ==  [6,10,15]
+  divisoresPropiosMaximales 420  ==  [60,84,140,210]
+  divisoresPropiosMaximales 7    ==  [1]
+  length (divisoresPropiosMaximales (product [1..3*10^4])) == 3245
 \end{descripcion} 
 \item (nDivisoresPropiosMaximales x) es el número de  divisores propios
   maximales de x. Por ejemplo,
 \begin{descripcion}   
-     nDivisoresPropiosMaximales 30   ==  3
-     nDivisoresPropiosMaximales 420  ==  4
-     nDivisoresPropiosMaximales 7    ==  1
-     nDivisoresPropiosMaximales (product [1..3*10^4])  ==  3245
+  nDivisoresPropiosMaximales 30   ==  3
+  nDivisoresPropiosMaximales 420  ==  4
+  nDivisoresPropiosMaximales 7    ==  1
+  nDivisoresPropiosMaximales (product [1..3*10^4])  ==  3245
 \end{descripcion} 
 \end{itemize}
 

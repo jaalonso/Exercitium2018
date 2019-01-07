@@ -19,17 +19,17 @@ como subcadenas los 6 primeros primos (2, 3, 5, 7, 11 y 13).
 
 Definir la función
 \begin{descripcion}
-   menorContenedor :: Int -> Int
-\\end{descripcion}  
+  menorContenedor :: Int -> Int
+\end{descripcion}  
 tal que (menorContenedor n) es el n-ésimo menor contenenedor de
 primos. Por ejemplo,
 \begin{descripcion}
-   menorContenedor 1  ==  2
-   menorContenedor 2  ==  23
-   menorContenedor 3  ==  235
-   menorContenedor 4  ==  2357
-   menorContenedor 5  ==  112357
-   menorContenedor 6  ==  113257
+  menorContenedor 1  ==  2
+  menorContenedor 2  ==  23
+  menorContenedor 3  ==  235
+  menorContenedor 4  ==  2357
+  menorContenedor 5  ==  112357
+  menorContenedor 6  ==  113257
 \end{descripcion}
 
 \section*{Soluciones}

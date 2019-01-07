@@ -1,8 +1,8 @@
-%  Distancia_de_Hamming.hs
-%  Distancia de Hamming.
-%  José A. Alonso Jiménez
-%  Sevilla, 12 de Noviembre de 2018
-%  ---------------------------------------------------------------------
+% Distancia_de_Hamming.hs
+% Distancia de Hamming.
+% José A. Alonso Jiménez
+% Sevilla, 12 de Noviembre de 2018
+% ---------------------------------------------------------------------
 
 \section*{Enunciado}
 

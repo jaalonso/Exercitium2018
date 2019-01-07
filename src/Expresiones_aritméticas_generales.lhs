@@ -16,22 +16,22 @@ Las expresiones aritméticas. generales se contruyen con las sumas
 generales (sumatorios) y productos generales (productorios). Su tipo
 es
 \begin{descripcion}
-   data Expresion = N Int
-                  | S [Expresion]
-                  | P [Expresion]
-     deriving Show
+  data Expresion = N Int
+                 | S [Expresion]
+                 | P [Expresion]
+    deriving Show
 \end{descripcion}
 Por ejemplo, la expresión \verb|(2 * (1 + 2 + 1) * (2 + 3)) + 1| se
 representa por \verb|S [P [N 2, S [N 1, N 2, N 1], S [N 2, N 3]], N 1]|
 
 Definir la función
 \begin{descripcion}
-   valor :: Expresion -> Int
+  valor :: Expresion -> Int
 \end{descripcion}
 tal que (valor e) es el valor de la expresión e. Por ejemplo,
 \begin{descripcion}
-   λ> valor (S [P [N 2, S [N 1, N 2, N 1], S [N 2, N 3]], N 1])
-   41
+  λ> valor (S [P [N 2, S [N 1, N 2, N 1], S [N 2, N 3]], N 1])
+  41
 \end{descripcion}
 
 \section*{Soluciones}

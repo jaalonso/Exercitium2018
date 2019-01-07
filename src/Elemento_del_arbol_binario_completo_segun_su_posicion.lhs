@@ -34,9 +34,9 @@ ejemplo,
 
 Los árboles binarios se puede representar mediante el siguiente tipo
 \begin{descripcion}
-   data Arbol = H
-              | N Integer Arbol Arbol
-     deriving (Show, Eq)
+  data Arbol = H
+             | N Integer Arbol Arbol
+    deriving (Show, Eq)
 \end{descripcion}
 
 Cada posición de un elemento de un árbol es una lista de movimientos
@@ -45,21 +45,21 @@ en al árbol anterior es [I,I,D].
 
 Los tipos de los movimientos y de las posiciones se definen por
 \begin{descripcion}
-   data Movimiento = I | D deriving (Show, Eq)
-   type Posicion   = [Movimiento]
+  data Movimiento = I | D deriving (Show, Eq)
+  type Posicion   = [Movimiento]
 \end{descripcion}
 
 Definir la función
 \begin{descripcion}
-   elementoEnPosicion :: Posicion -> Integer
+  elementoEnPosicion :: Posicion -> Integer
 \end{descripcion}
 tal que (elementoEnPosicion ms) es el elemento en la posición ms. Por
 ejemplo,
 \begin{descripcion}
-   elementoEnPosicion [D,I]    ==  6
-   elementoEnPosicion [D,D]    ==  7
-   elementoEnPosicion [I,I,D]  ==  9
-   elementoEnPosicion []       ==  1
+  elementoEnPosicion [D,I]    ==  6
+  elementoEnPosicion [D,D]    ==  7
+  elementoEnPosicion [I,I,D]  ==  9
+  elementoEnPosicion []       ==  1
 \end{descripcion}
 
 \section*{Soluciones}

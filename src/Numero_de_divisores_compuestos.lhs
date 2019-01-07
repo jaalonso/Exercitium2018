@@ -4,6 +4,10 @@
 % Sevilla, 25 de diciembre de 2018
 % ---------------------------------------------------------------------
 
+\epigraph{\textit{Lo corriente en el hombre es la tendencia a creer
+    verdadero cuanto le reporta alguna utilidad. Por eso hay tantos
+    hombres capaces de comulgar con ruedas de molino.}}{Antonio Machado}
+
 \section*{Enunciado}
 
 \begin{comment}
@@ -14,16 +18,16 @@ module Numero_de_divisores_compuestos where
 
 Definir la función
 \begin{descripcion} 
-   nDivisoresCompuestos :: Integer -> Integer
+  nDivisoresCompuestos :: Integer -> Integer
 \end{descripcion} 
 tal que (nDivisoresCompuestos x) es el número de divisores de x que
 son compuestos (es decir, números mayores que 1 que no son
 primos). Por ejemplo,
 \begin{descripcion} 
-   nDivisoresCompuestos 30  ==  4
-   nDivisoresCompuestos (product [1..11])  ==  534
-   nDivisoresCompuestos (product [1..25])  ==  340022
-   length (show (nDivisoresCompuestos (product [1..3*10^4]))) == 1948
+  nDivisoresCompuestos 30  ==  4
+  nDivisoresCompuestos (product [1..11])  ==  534
+  nDivisoresCompuestos (product [1..25])  ==  340022
+  length (show (nDivisoresCompuestos (product [1..3*10^4]))) == 1948
 \end{descripcion}
 
 \section*{Soluciones}

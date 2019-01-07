@@ -4,6 +4,8 @@
 % Sevilla, 14 de diciembre de 2018
 % ---------------------------------------------------------------------
 
+\epigraph{\textit{Todo necio confunde valor y precio.}}{Antonio Machado}
+
 \section*{Enunciado}
 
 \begin{comment}
@@ -22,27 +24,27 @@ el mínimo 4 veces.
 
 Definir las funciones
 \begin{descripcion}
-   nuevosMaximos :: [Int] -> [Int]
-   nuevosMinimos :: [Int] -> [Int]
-   nRupturas     :: [Int] -> (Int,Int)
+  nuevosMaximos :: [Int] -> [Int]
+  nuevosMinimos :: [Int] -> [Int]
+  nRupturas     :: [Int] -> (Int,Int)
 \end{descripcion}
 tales que
 \begin{itemize}
 \item (nuevosMaximos xs) es la lista de los nuevos máximos de xs. Por
   ejemplo,
 \begin{descripcion}  
-     nuevosMaximos [7,5,9,9,4,5,4,2,5,9,12,1]  ==  [7,9,12]
+  nuevosMaximos [7,5,9,9,4,5,4,2,5,9,12,1]  ==  [7,9,12]
 \end{descripcion}
 \item (nuevosMinimos xs) es la lista de los nuevos mínimos de xs. Por
   ejemplo,
 \begin{descripcion}  
-     nuevosMinimos [7,5,9,9,4,5,4,2,5,9,12,1]  ==  [7,5,4,2,1]
+  nuevosMinimos [7,5,9,9,4,5,4,2,5,9,12,1]  ==  [7,5,4,2,1]
 \end{descripcion}
 \item (nRupturas xs) es el par formado por el número de veces que se
   supera el máximo y el número de veces que se supera el mínimo en
   xs. Por ejemplo,
 \begin{descripcion}  
-     nRupturas [7,5,9,9,4,5,4,2,5,9,12,1]  ==  (2,4)
+  nRupturas [7,5,9,9,4,5,4,2,5,9,12,1]  ==  (2,4)
 \end{descripcion}
 \end{itemize}
 

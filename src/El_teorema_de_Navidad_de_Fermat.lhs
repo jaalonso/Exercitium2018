@@ -5,8 +5,8 @@
 % ---------------------------------------------------------------------
 
 \epigraph
- {– ¡Cuándo llegará otro día! \\
-  – Hoy es siempre todavía.}
+  {\textit{– ¡Cuándo llegará otro día! \\
+  – Hoy es siempre todavía.}}
  {Antonio Machado} 
 
 \section*{Enunciado}
@@ -24,36 +24,36 @@ el Teorema de Navidad de Fermat
 
 Definir las funciones
 \begin{descripcion} 
-representaciones                    :: Integer -> [(Integer,Integer)]
-primosImparesConRepresentacionUnica :: [Integer]
-primos4nM1                          :: [Integer]
+  representaciones                    :: Integer -> [(Integer,Integer)]
+  primosImparesConRepresentacionUnica :: [Integer]
+  primos4nM1                          :: [Integer]
 \end{descripcion} 
 tales que
 \begin{itemize}
 \item (representaciones n) es la lista de pares de números naturales
   (x,y) tales que \(n = x^2 + y^2\) con \(x \leq y\). Por ejemplo.
 \begin{descripcion} 
-representaciones  20           ==  [(2,4)]
-representaciones  25           ==  [(0,5),(3,4)]
-representaciones 325           ==  [(1,18),(6,17),(10,15)]
-representaciones 100000147984  ==  [(0,316228)]
-length (representaciones (10^10))    ==  6
-length (representaciones (4*10^12))  ==  7
+  representaciones  20           ==  [(2,4)]
+  representaciones  25           ==  [(0,5),(3,4)]
+  representaciones 325           ==  [(1,18),(6,17),(10,15)]
+  representaciones 100000147984  ==  [(0,316228)]
+  length (representaciones (10^10))    ==  6
+  length (representaciones (4*10^12))  ==  7
 \end{descripcion} 
 \item primosImparesConRepresentacionUnica es la lista de los números
   primos impares que se pueden escribir exactamente de una manera
   como suma de cuadrados de pares de números naturales (x,y) con
   \(x \leq y\). Por ejemplo,
 \begin{descripcion}   
-λ> take 20 primosImparesConRepresentacionUnica
-[5,13,17,29,37,41,53,61,73,89,97,101,109,113,137,149,157,173,181,193]
+  λ> take 20 primosImparesConRepresentacionUnica
+  [5,13,17,29,37,41,53,61,73,89,97,101,109,113,137,149,157,173,181,193]
 \end{descripcion} 
 \item primos4nM1 es la lista de los números primos que se pueden escribir
   como uno más un múltiplo de 4 (es decir, que son congruentes con 1
   módulo 4). Por ejemplo,
 \begin{descripcion}   
-λ> take 20 primos4nM1
-[5,13,17,29,37,41,53,61,73,89,97,101,109,113,137,149,157,173,181,193]
+  λ> take 20 primos4nM1
+  [5,13,17,29,37,41,53,61,73,89,97,101,109,113,137,149,157,173,181,193]
 \end{descripcion} 
 \end{itemize}
 

@@ -4,6 +4,10 @@
 % Sevilla, 24 de diciembre de 2018
 % ---------------------------------------------------------------------
 
+\epigraph{\textit{La verdad del hombre empieza donde acaba su propia
+    tontería, pero la tontería del hombre es inagotable.}}{Antonio
+    Machado}
+
 \section*{Enunciado}
 
 \begin{comment}
@@ -14,17 +18,17 @@ module Divisores_compuestos where
 
 Definir la función
 \begin{descripcion} 
-   divisoresCompuestos :: Integer -> [Integer]
+  divisoresCompuestos :: Integer -> [Integer]
 \end{descripcion} 
 tal que (divisoresCompuestos x) es la lista de los divisores de x que
 son números compuestos (es decir, números mayores que 1 que no son
 primos). Por ejemplo,
 \begin{descripcion} 
-   divisoresCompuestos 30  ==  [6,10,15,30]
-   length (divisoresCompuestos (product [1..11]))  ==  534
-   length (divisoresCompuestos (product [1..14]))  ==  2585
-   length (divisoresCompuestos (product [1..16]))  ==  5369
-   length (divisoresCompuestos (product [1..25]))  ==  340022
+  divisoresCompuestos 30  ==  [6,10,15,30]
+  length (divisoresCompuestos (product [1..11]))  ==  534
+  length (divisoresCompuestos (product [1..14]))  ==  2585
+  length (divisoresCompuestos (product [1..16]))  ==  5369
+  length (divisoresCompuestos (product [1..25]))  ==  340022
 \end{descripcion}
  
 \section*{Soluciones}

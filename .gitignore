@@ -34,6 +34,7 @@ _minted*
 cabal-dev
 cabal.project.local
 cabal.sandbox.config
+.liquid*
 dist
 dist-*
 pdte/

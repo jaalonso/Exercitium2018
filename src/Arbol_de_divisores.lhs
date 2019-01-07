@@ -4,6 +4,11 @@
 % Sevilla, 21 de diciembre de 2018
 % ---------------------------------------------------------------------
 
+\epigraph{\textit{¿Dónde está la utilidad \\
+    de nuestras utilidades? \\
+    Volvamos a la verdad: \\
+    vanidad de vanidades.}}{Antonio Machado}
+
 \section*{Enunciado}
 
 \begin{comment}
@@ -34,53 +39,53 @@ maximales. Por ejemplo, el árbol de divisores de 30 es
  
 Usando el tipo de dato
 \begin{descripcion} 
-   data Arbol = N Integer [Arbol]
-     deriving (Eq, Show)
+  data Arbol = N Integer [Arbol]
+    deriving (Eq, Show)
 \end{descripcion} 
 el árbol anterior se representa por
 \begin{descripcion} 
-   N 30
-     [N 6
-        [N 2 [N 1 []],
-         N 3 [N 1 []]],
-      N 10
-        [N 2 [N 1 []],
-         N 5 [N 1 []]],
-      N 15
-        [N 3 [N 1 []],
-         N 5 [N 1 []]]]
+  N 30
+    [N 6
+       [N 2 [N 1 []],
+        N 3 [N 1 []]],
+     N 10
+       [N 2 [N 1 []],
+        N 5 [N 1 []]],
+     N 15
+       [N 3 [N 1 []],
+        N 5 [N 1 []]]]
 \end{descripcion} 
          
 Definir las funciones
 \begin{descripcion} 
-   arbolDivisores             :: Integer -> Arbol
-   nOcurrenciasArbolDivisores :: Integer -> Integer -> Integer
+  arbolDivisores             :: Integer -> Arbol
+  nOcurrenciasArbolDivisores :: Integer -> Integer -> Integer
 \end{descripcion} 
 tales que
 \begin{itemize}
 \item (arbolDivisores x) es el árbol de los divisores del número x. Por
   ejemplo,
 \begin{descripcion}   
-     λ> arbolDivisores 30
-     N 30 [N 6  [N 2 [N 1 []],N 3 [N 1 []]],
-           N 10 [N 2 [N 1 []],N 5 [N 1 []]],
-           N 15 [N 3 [N 1 []],N 5 [N 1 []]]]
+  λ> arbolDivisores 30
+  N 30 [N 6  [N 2 [N 1 []],N 3 [N 1 []]],
+        N 10 [N 2 [N 1 []],N 5 [N 1 []]],
+        N 15 [N 3 [N 1 []],N 5 [N 1 []]]]
 \end{descripcion} 
 \item (nOcurrenciasArbolDivisores x y) es el número de veces que aparece
   el número x en el árbol de los divisores del número y. Por ejemplo,
 \begin{descripcion}   
-     nOcurrenciasArbolDivisores  3 30  ==  2
-     nOcurrenciasArbolDivisores  6 30  ==  1
-     nOcurrenciasArbolDivisores 30 30  ==  1
-     nOcurrenciasArbolDivisores  1 30  ==  6
-     nOcurrenciasArbolDivisores  9 30  ==  0
-     nOcurrenciasArbolDivisores  2 (product [1..10])  ==  360360
-     nOcurrenciasArbolDivisores  3 (product [1..10])  ==  180180
-     nOcurrenciasArbolDivisores  5 (product [1..10])  ==  90090
-     nOcurrenciasArbolDivisores  7 (product [1..10])  ==  45045
-     nOcurrenciasArbolDivisores  6 (product [1..10])  ==  102960
-     nOcurrenciasArbolDivisores 10 (product [1..10])  ==  51480
-     nOcurrenciasArbolDivisores 14 (product [1..10])  ==  25740
+  nOcurrenciasArbolDivisores  3 30  ==  2
+  nOcurrenciasArbolDivisores  6 30  ==  1
+  nOcurrenciasArbolDivisores 30 30  ==  1
+  nOcurrenciasArbolDivisores  1 30  ==  6
+  nOcurrenciasArbolDivisores  9 30  ==  0
+  nOcurrenciasArbolDivisores  2 (product [1..10])  ==  360360
+  nOcurrenciasArbolDivisores  3 (product [1..10])  ==  180180
+  nOcurrenciasArbolDivisores  5 (product [1..10])  ==  90090
+  nOcurrenciasArbolDivisores  7 (product [1..10])  ==  45045
+  nOcurrenciasArbolDivisores  6 (product [1..10])  ==  102960
+  nOcurrenciasArbolDivisores 10 (product [1..10])  ==  51480
+  nOcurrenciasArbolDivisores 14 (product [1..10])  ==  25740
 \end{descripcion} 
 \end{itemize}
 

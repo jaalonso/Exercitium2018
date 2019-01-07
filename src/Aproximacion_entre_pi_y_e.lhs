@@ -25,8 +25,8 @@ $$
 
 Definir las siguientes funciones:
 \begin{descripcion}
-   sumaTerminos :: Int -> Double
-   aproximacion :: Double -> Int
+  sumaTerminos :: Int -> Double
+  aproximacion :: Double -> Int
 \end{descripcion}
 tales que
 \begin{itemize}
@@ -40,19 +40,19 @@ $$
 $$
 Por ejemplo,
 \begin{descripcion}  
-     sumaTerminos 10     ==  0.14687821811081034
-     sumaTerminos 100    ==  0.15550948345688423
-     sumaTerminos 1000   ==  0.15641637221314514
-     sumaTerminos 10000  ==  0.15650751113789382
+  sumaTerminos 10     ==  0.14687821811081034
+  sumaTerminos 100    ==  0.15550948345688423
+  sumaTerminos 1000   ==  0.15641637221314514
+  sumaTerminos 10000  ==  0.15650751113789382
 \end{descripcion}
 \item (aproximación x) es el menor número de términos que hay que sumar
   de la serie anterior para que se diferencie (en valor absoluto) de
   $\frac{1}{e^2-1}$ menos que x. Por ejemplo,
 \begin{descripcion}  
-     aproximacion 0.1     ==  1
-     aproximacion 0.01    ==  10
-     aproximacion 0.001   ==  101
-     aproximacion 0.0001  ==  1013
+  aproximacion 0.1     ==  1
+  aproximacion 0.01    ==  10
+  aproximacion 0.001   ==  101
+  aproximacion 0.0001  ==  1013
 \end{descripcion}
 \end{itemize}
 

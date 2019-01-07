@@ -4,6 +4,12 @@
 % Sevilla, 28 de diciembre de 2018
 % ---------------------------------------------------------------------
 
+\epigraph
+ {\textit{Nunca traces tu frontera, \\
+  ni cuides de tu perfil;   \\
+  todo eso es cosa de fuera.}}
+ {Antonio Machado}
+
 \section*{Enunciado}
 
 \begin{comment}
@@ -20,66 +26,66 @@ El árbol de los subconjuntos de un conjunto A es el árbol que tiene
 como raíz el conjunto A y cada nodo tiene como hijos sus subconjuntos
 maximales. Por ejemplo, el árbol de subconjuntos de [2,3,5] es 
 \begin{descripcion} 
-          [2, 3, 5]
-          /   |  \
-         /    |   \  
-        /     |    \   
-       /      |     \
-      /       |      \
-    [5,3]   [2,3]   [2,5]  
-    /  \    /  \    /  \  
-   [3] [5] [3] [2] [5] [2]
-    |   |   |   |   |   | 
-   [ ] [ ] [ ] [ ] [ ] [ ]
+         [2, 3, 5]
+         /   |  \
+        /    |   \  
+       /     |    \   
+      /      |     \
+     /       |      \
+   [5,3]   [2,3]   [2,5]  
+   /  \    /  \    /  \  
+  [3] [5] [3] [2] [5] [2]
+   |   |   |   |   |   | 
+  [ ] [ ] [ ] [ ] [ ] [ ]
 \end{descripcion} 
    
 Usando el tipo de dato
 \begin{descripcion} 
-   data Arbol = N Integer [Arbol]
-     deriving (Eq, Show)
+  data Arbol = N Integer [Arbol]
+    deriving (Eq, Show)
 \end{descripcion} 
 el árbol anterior se representa por
 \begin{descripcion} 
-   N [2,5,3]
-     [N [5,3]
-        [N [3]
-           [N [] []],
-         N [5]
-           [N [] []]],
-      N [2,3]
-        [N [3]
-           [N [] []],
-         N [2]
-           [N [] []]],
-      N [2,5]
-        [N [5]
-           [N [] []],
-         N [2]
-           [N [] []]]]
+  N [2,5,3]
+    [N [5,3]
+       [N [3]
+          [N [] []],
+        N [5]
+          [N [] []]],
+     N [2,3]
+       [N [3]
+          [N [] []],
+        N [2]
+          [N [] []]],
+     N [2,5]
+       [N [5]
+          [N [] []],
+        N [2]
+          [N [] []]]]
 \end{descripcion} 
 
 Definir las funciones
 \begin{descripcion} 
-   arbolSubconjuntos :: [Int] -> Arbol 
-   nOcurrenciasArbolSubconjuntos :: [Int] -> [Int] -> Int
+  arbolSubconjuntos :: [Int] -> Arbol 
+  nOcurrenciasArbolSubconjuntos :: [Int] -> [Int] -> Int
 \end{descripcion} 
 tales que
 \begin{itemize}
 \item (arbolSubconjuntos x) es el árbol de los subconjuntos de xs. Por
   ejemplo,
 \begin{descripcion}   
-     λ> arbolSubconjuntos [2,5,3]
-     N [2,5,3] [N [5,3] [N [3] [N [] []],N [5] [N [] []]],
-                N [2,3] [N [3] [N [] []],N [2] [N [] []]],
-                N [2,5] [N [5] [N [] []],N [2] [N [] []]]]
+  λ> arbolSubconjuntos [2,5,3]
+  N [2,5,3] [N [5,3] [N [3] [N [] []],N [5] [N [] []]],
+             N [2,3] [N [3] [N [] []],N [2] [N [] []]],
+             N [2,5] [N [5] [N [] []],N [2] [N [] []]]]
 \end{descripcion} 
 \item (nOcurrenciasArbolSubconjuntos xs ys) es el número de veces que aparece
   el conjunto xs en el árbol de los subconjuntos de ys. Por ejemplo,
 \begin{descripcion}   
-     nOcurrenciasArbolSubconjuntos []      [2,5,3]  ==  6
-     nOcurrenciasArbolSubconjuntos [3]     [2,5,3]  ==  2
-     nOcurrenciasArbolSubconjuntos [3,5]   [2,5,3]  ==  1
-     nOcurrenciasArbolSubconjuntos [3,5,2] [2,5,3]  ==  1
+  nOcurrenciasArbolSubconjuntos []      [2,5,3]  ==  6
+  nOcurrenciasArbolSubconjuntos [3]     [2,5,3]  ==  2
+  nOcurrenciasArbolSubconjuntos [3,5]   [2,5,3]  ==  1
+  nOcurrenciasArbolSubconjuntos [3,5,2] [2,5,3]  ==  1
 \end{descripcion} 
 \end{itemize}
 

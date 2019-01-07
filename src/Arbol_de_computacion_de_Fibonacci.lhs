@@ -14,7 +14,7 @@ module Arbol_de_computacion_de_Fibonacci where
 
 La sucesión de Fibonacci es
 \begin{descripcion}
-   0,1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,...
+  0,1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,...
 \end{descripcion}
 cuyos dos primeros términos son 0 y 1 y los restantentes se obtienen
 sumando los dos anteriores.
@@ -38,66 +38,66 @@ El árbol de computación de su 5º término es
 \end{descripcion}
 que, usando los árboles definidos por
 \begin{descripcion}
-   data Arbol = H Int
-              | N Int Arbol Arbol
-     deriving (Eq, Show)
+  data Arbol = H Int
+             | N Int Arbol Arbol
+    deriving (Eq, Show)
 \end{descripcion}
 se puede representar por
 \begin{descripcion}
-   N 5              
-     (N 3           
-        (N 2        
-           (N 1 (H 1) (H 0))
-           (H 1))   
-        (N 1 (H 1) (H 0)))  
-     (N 2           
-        (N 1 (H 1) (H 0))   
-        (H 1))     
+  N 5              
+    (N 3           
+       (N 2        
+          (N 1 (H 1) (H 0))
+          (H 1))   
+       (N 1 (H 1) (H 0)))  
+    (N 2           
+       (N 1 (H 1) (H 0))   
+       (H 1))     
 \end{descripcion}
       
 Definir las funciones
 \begin{descripcion}
-   arbolFib           :: Int -> Arbol
-   nElementosArbolFib :: Int -> Int
+  arbolFib           :: Int -> Arbol
+  nElementosArbolFib :: Int -> Int
 \end{descripcion}
 tales que
 \begin{itemize}
 \item (arbolFib n) es el árbol de computación del n--ésimo término de la
   sucesión de Fibonacci. Por ejemplo,
 \begin{descripcion}  
-     λ> arbolFib 5
-     N 5              
-       (N 3           
-          (N 2        
-             (N 1 (H 1) (H 0))
-             (H 1))   
-          (N 1 (H 1) (H 0)))  
-       (N 2           
-          (N 1 (H 1) (H 0))   
-          (H 1))
-     λ> arbolFib 6
-     N 8
-       (N 5
-          (N 3
-             (N 2
-                (N 1 (H 1) (H 0))
-                (H 1))
-             (N 1 (H 1) (H 0)))
-          (N 2
-             (N 1 (H 1) (H 0))
-             (H 1)))
+  λ> arbolFib 5
+  N 5              
+    (N 3           
+       (N 2        
+          (N 1 (H 1) (H 0))
+          (H 1))   
+       (N 1 (H 1) (H 0)))  
+    (N 2           
+       (N 1 (H 1) (H 0))   
+       (H 1))
+  λ> arbolFib 6
+  N 8
+    (N 5
        (N 3
           (N 2
-             (N 1 (H 1) (H 0)) (H 1))
+             (N 1 (H 1) (H 0))
+             (H 1))
           (N 1 (H 1) (H 0)))
+       (N 2
+          (N 1 (H 1) (H 0))
+          (H 1)))
+    (N 3
+       (N 2
+          (N 1 (H 1) (H 0)) (H 1))
+       (N 1 (H 1) (H 0)))
 \end{descripcion}
 \item (nElementosArbolFib n) es el número de elementos en el árbol de
   computación del n-ésimo término de la sucesión de Fibonacci. Por
   ejemplo,
 \begin{descripcion}
-     nElementosArbolFib 5   ==  15
-     nElementosArbolFib 6   ==  25
-     nElementosArbolFib 30  ==  2692537
+  nElementosArbolFib 5   ==  15
+  nElementosArbolFib 6   ==  25
+  nElementosArbolFib 30  ==  2692537
 \end{descripcion}
 \end{itemize}
 

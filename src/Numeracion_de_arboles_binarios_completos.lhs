@@ -34,30 +34,30 @@ ejemplo,
 
 Los árboles binarios se puede representar mediante el siguiente tipo
 \begin{descripcion}
-   data Arbol = H
-              | N Int Arbol Arbol
-     deriving (Show, Eq)
+  data Arbol = H
+             | N Int Arbol Arbol
+    deriving (Show, Eq)
 \end{descripcion}
 
 Definir la función
 \begin{descripcion}
-    arbolBinarioCompleto :: Int -> Arbol
+  arbolBinarioCompleto :: Int -> Arbol
 \end{descripcion}
 tal que (arbolBinarioCompleto n) es el árbol binario completo con n
 nodos. Por ejemplo,
 \begin{descripcion}
-   λ> arbolBinarioCompleto 4
-   N 1 (N 2 (N 4 H H) H) (N 3 H H)
-   λ> pPrint (arbolBinarioCompleto 9)
-   N 1
-     (N 2
-        (N 4
-           (N 8 H H)
-           (N 9 H H))
-        (N 5 H H))
-     (N 3
-        (N 6 H H)
-        (N 7 H H))
+  λ> arbolBinarioCompleto 4
+  N 1 (N 2 (N 4 H H) H) (N 3 H H)
+  λ> pPrint (arbolBinarioCompleto 9)
+  N 1
+    (N 2
+       (N 4
+          (N 8 H H)
+          (N 9 H H))
+       (N 5 H H))
+    (N 3
+       (N 6 H H)
+       (N 7 H H))
 \end{descripcion}
 
 \section*{Soluciones}

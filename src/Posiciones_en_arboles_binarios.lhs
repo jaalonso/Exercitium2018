@@ -14,9 +14,9 @@ module Posiciones_en_arboles_binarios where
 
 Los árboles binarios con datos en los nodos se definen por
 \begin{descripcion}
-   data Arbol a = H
-                | N a (Arbol a) (Arbol a)
-     deriving (Eq, Show)
+  data Arbol a = H
+               | N a (Arbol a) (Arbol a)
+    deriving (Eq, Show)
 \end{descripcion}
 Por ejemplo, el árbol
 \begin{descripcion}
@@ -31,16 +31,16 @@ Por ejemplo, el árbol
 \end{descripcion}
 se representa por
 \begin{descripcion}
-   ejArbol :: Arbol Int
-   ejArbol = N 3
-               (N 0
-                  (N 5
-                     (N 2 H H)
-                     (N 4 H H))
-                  (N 0 H H))
-               (N 5
-                  (N 0 H H)
-                  (N 3 H H))
+  ejArbol :: Arbol Int
+  ejArbol = N 3
+              (N 0
+                 (N 5
+                    (N 2 H H)
+                    (N 4 H H))
+                 (N 0 H H))
+              (N 5
+                 (N 0 H H)
+                 (N 3 H H))
 \end{descripcion}
                 
 Cada posición de un elemento de un árbol es una lista de movimientos
@@ -49,23 +49,23 @@ en al árbol anterior es [I,I,D].
 
 Los tipos de los movimientos y de las posiciones se definen por
 \begin{descripcion}
-   data Movimiento = I | D deriving (Show, Eq)
-   type Posicion   = [Movimiento]
+  data Movimiento = I | D deriving (Show, Eq)
+  type Posicion   = [Movimiento]
 \end{descripcion}
    
 Definir la función
 \begin{descripcion}
-   posiciones :: Eq b => b -> Arbol b -> [Posicion]
+  posiciones :: Eq b => b -> Arbol b -> [Posicion]
 \end{solucion}
 tal que (posiciones n a) es la lista de las posiciones del elemento n
 en el árbol a. Por ejemplo,
 \begin{descripcion}
-   posiciones 0 ejArbol  ==  [[I],[I,D],[D,I]]
-   posiciones 2 ejArbol  ==  [[I,I,I]]
-   posiciones 3 ejArbol  ==  [[],[D,D]]
-   posiciones 4 ejArbol  ==  [[I,I,D]]
-   posiciones 5 ejArbol  ==  [[I,I],[D]]
-   posiciones 1 ejArbol  ==  []
+  posiciones 0 ejArbol  ==  [[I],[I,D],[D,I]]
+  posiciones 2 ejArbol  ==  [[I,I,I]]
+  posiciones 3 ejArbol  ==  [[],[D,D]]
+  posiciones 4 ejArbol  ==  [[I,I,D]]
+  posiciones 5 ejArbol  ==  [[I,I],[D]]
+  posiciones 1 ejArbol  ==  []
 \end{descripcion}
  
 \section*{Soluciones}

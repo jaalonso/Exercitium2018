@@ -4,6 +4,11 @@
 % Sevilla, 27 de diciembre de 2018
 % ---------------------------------------------------------------------
 
+\epigraph
+ {\textit{Nuestras horas son minutos cuando esperamos saber, y siglos cuando
+sabemos lo que se puede aprender.}}
+ {Antonio Machado}
+
 \section*{Enunciado}
 
 \begin{comment}
@@ -20,23 +25,23 @@ i y j es el j-ésimo elemento del i-ésimo elemento de xss. Por
 ejemplo, si A = {0,1,2} entonces las tabla de la suma y de la resta
 módulo 3 en A son
 \begin{descripcion} 
-   0 1 2    0 2 1
-   1 2 0    1 0 2
-   2 0 1    2 1 0
-   Suma     Resta
+  0 1 2    0 2 1
+  1 2 0    1 0 2
+  2 0 1    2 1 0
+  Suma     Resta
 \end{descripcion}
  
 Definir la función
 \begin{descripcion} 
-   conmutativa :: [[Int]] -> Bool
+  conmutativa :: [[Int]] -> Bool
 \end{descripcion}   
 tal que (conmutativa xss) se verifica si la operación cuya tabla es
 xss es conmutativa. Por ejemplo,
 \begin{descripcion} 
-   conmutativa [[0,1,2],[1,0,1],[2,1,0]]  ==  True
-   conmutativa [[0,1,2],[1,0,0],[2,1,0]]  ==  False
-   conmutativa [[i+j `mod` 2000 | j <- [0..1999]] | i <- [0..1999]] == True
-   conmutativa [[i-j `mod` 2000 | j <- [0..1999]] | i <- [0..1999]] == False
+  conmutativa [[0,1,2],[1,0,1],[2,1,0]]  ==  True
+  conmutativa [[0,1,2],[1,0,0],[2,1,0]]  ==  False
+  conmutativa [[i+j `mod` 2000 | j <- [0..1999]] | i <- [0..1999]] == True
+  conmutativa [[i-j `mod` 2000 | j <- [0..1999]] | i <- [0..1999]] == False
 \end{descripcion} 
 
 \section*{Soluciones}

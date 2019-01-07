@@ -19,23 +19,23 @@ conjuntos {2, 6} y {24, 36}.
 
 Definir la función
 \begin{descripcion}
-   entreDosConjuntos :: [Int] -> [Int] -> [Int]
+  entreDosConjuntos :: [Int] -> [Int] -> [Int]
 \end{descripcion}
 tal que (entreDosConjuntos xs ys) es la lista de elementos entre xs e
 ys (se supone que xs e ys son listas no vacías de números enteros
 positivos). Por ejemplo,
 \begin{descripcion}
-   entreDosConjuntos [2,6] [24,36]     ==  [6,12]
-   entreDosConjuntos [2,4] [32,16,96]  ==  [4,8,16]
+  entreDosConjuntos [2,6] [24,36]     ==  [6,12]
+  entreDosConjuntos [2,4] [32,16,96]  ==  [4,8,16]
 \end{descripcion}
 Otros ejemplos
 \begin{descripcion}
-   λ> (xs,a) = ([1..15],product xs) 
-   λ> length (entreDosConjuntos xs [a,2*a..10*a])
-   270
-   λ> (xs,a) = ([1..16],product xs) 
-   λ> length (entreDosConjuntos xs [a,2*a..10*a])
-   360
+  λ> (xs,a) = ([1..15],product xs) 
+  λ> length (entreDosConjuntos xs [a,2*a..10*a])
+  270
+  λ> (xs,a) = ([1..16],product xs) 
+  λ> length (entreDosConjuntos xs [a,2*a..10*a])
+  360
 \end{descripcion}
 
 \section*{Soluciones}

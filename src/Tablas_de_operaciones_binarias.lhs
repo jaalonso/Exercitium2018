@@ -4,6 +4,12 @@
 % Sevilla, 26 de diciembre de 2018
 % ---------------------------------------------------------------------
 
+\epigraph
+ {\textit{¿Tu verdad? No, la Verdad, \\
+          y ven conmigo a buscarla. \\
+          La tuya guárdatela.}}
+ {Antonio Machado}
+
 \section*{Enunciado}
 
 \begin{comment}
@@ -20,46 +26,46 @@ i y j es el j--ésimo elemento del i--ésimo elemento de xss. Por
 ejemplo, si A = {0,1,2} entonces las tabla de la suma y de la resta
 módulo 3 en A son
 \begin{descripcion} 
-   0 1 2    0 2 1
-   1 2 0    1 0 2
-   2 0 1    2 1 0
-   Suma     Resta
- \end{descripcion}
+  0 1 2    0 2 1
+  1 2 0    1 0 2
+  2 0 1    2 1 0
+  Suma     Resta
+\end{descripcion}
  
 Definir las funciones
 \begin{descripcion}  
-   tablaOperacion :: (Int -> Int -> Int) -> Int -> [[Int]]
-   tablaSuma      :: Int -> [[Int]]
-   tablaResta     :: Int -> [[Int]]
-   tablaProducto  :: Int -> [[Int]]
+  tablaOperacion :: (Int -> Int -> Int) -> Int -> [[Int]]
+  tablaSuma      :: Int -> [[Int]]
+  tablaResta     :: Int -> [[Int]]
+  tablaProducto  :: Int -> [[Int]]
 \end{descripcion} 
 tales que
 \begin{itemize}
 \item (tablaOperacion f n) es la tabla de la operación f módulo n en
   [0..n-1]. Por ejemplo,
 \begin{descripcion}   
-     tablaOperacion (+) 3  ==  [[0,1,2],[1,2,0],[2,0,1]]
-     tablaOperacion (-) 3  ==  [[0,2,1],[1,0,2],[2,1,0]]
-     tablaOperacion (-) 4  ==  [[0,3,2,1],[1,0,3,2],[2,1,0,3],[3,2,1,0]]
-     tablaOperacion (\x y -> abs (x-y)) 3  ==  [[0,1,2],[1,0,1],[2,1,0]]
+  tablaOperacion (+) 3  ==  [[0,1,2],[1,2,0],[2,0,1]]
+  tablaOperacion (-) 3  ==  [[0,2,1],[1,0,2],[2,1,0]]
+  tablaOperacion (-) 4  ==  [[0,3,2,1],[1,0,3,2],[2,1,0,3],[3,2,1,0]]
+  tablaOperacion (\x y -> abs (x-y)) 3  ==  [[0,1,2],[1,0,1],[2,1,0]]
 \end{descripcion} 
 \item (tablaSuma n) es la tabla de la suma módulo n en [0..n-1]. Por
   ejemplo,
 \begin{descripcion}   
-     tablaSuma 3  ==  [[0,1,2],[1,2,0],[2,0,1]]
-     tablaSuma 4  ==  [[0,1,2,3],[1,2,3,0],[2,3,0,1],[3,0,1,2]]
+  tablaSuma 3  ==  [[0,1,2],[1,2,0],[2,0,1]]
+  tablaSuma 4  ==  [[0,1,2,3],[1,2,3,0],[2,3,0,1],[3,0,1,2]]
 \end{descripcion} 
 \item (tablaResta n) es la tabla de la resta módulo n en [0..n-1]. Por
   ejemplo,
 \begin{descripcion}   
-     tablaResta 3  ==  [[0,2,1],[1,0,2],[2,1,0]]
-     tablaResta 4  ==  [[0,3,2,1],[1,0,3,2],[2,1,0,3],[3,2,1,0]]
+  tablaResta 3  ==  [[0,2,1],[1,0,2],[2,1,0]]
+  tablaResta 4  ==  [[0,3,2,1],[1,0,3,2],[2,1,0,3],[3,2,1,0]]
 \end{descripcion} 
 \item (tablaProducto n) es la tabla del producto módulo n en [0..n-1]. Por
   ejemplo,
 \begin{descripcion}   
-     tablaProducto 3  ==  [[0,0,0],[0,1,2],[0,2,1]]
-     tablaProducto 4  ==  [[0,0,0,0],[0,1,2,3],[0,2,0,2],[0,3,2,1]]
+  tablaProducto 3  ==  [[0,0,0],[0,1,2],[0,2,1]]
+  tablaProducto 4  ==  [[0,0,0,0],[0,1,2,3],[0,2,0,2],[0,3,2,1]]
 \end{descripcion} 
 \end{itemize}
 

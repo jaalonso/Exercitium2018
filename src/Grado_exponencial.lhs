@@ -4,6 +4,10 @@
 % Sevilla, 19 de Diciembre de 2018
 % ---------------------------------------------------------------------
 
+\epigraph{\textit{De cada diez novedades que pretenden descubrirnos,
+    nueve son tonterías. La décima y última, que no es necedad, resulta
+    a última hora que tampoco es nueva.}}{Antonio Machado}
+
 \section*{Enunciado}
 
 \begin{comment}
@@ -21,17 +25,17 @@ exponencial de 25 es 2 porque 25 es una subcadena de 625 (que es
 
 Definir la función
 \begin{descripcion} 
-   gradoExponencial :: Integer -> Integer
+  gradoExponencial :: Integer -> Integer
 \end{descripcion} 
 tal que (gradoExponencial n) es el grado exponencial de n. Por
 ejemplo,
 \begin{descripcion} 
-   gradoExponencial 2      ==  5
-   gradoExponencial 25     ==  2
-   gradoExponencial 15     ==  26
-   gradoExponencial 1093   ==  100
-   gradoExponencial 10422  ==  200
-   gradoExponencial 11092  ==  300
+  gradoExponencial 2      ==  5
+  gradoExponencial 25     ==  2
+  gradoExponencial 15     ==  26
+  gradoExponencial 1093   ==  100
+  gradoExponencial 10422  ==  200
+  gradoExponencial 11092  ==  300
 \end{descripcion} 
 
 \section*{Soluciones}
