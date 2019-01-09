@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: ae32256597107c1fe5a32d086a7ecac514dd00ae6297e1239bf9e0c1ab30b408
+-- hash: e1a71b8cd3d159a0e2ab14fa5037b51fe0821ab7892befe8a6ceae16be49496c
 
 name:           Exercitium2018
 version:        0.1.0.0
@@ -39,6 +39,7 @@ library
       Divisores_compuestos
       Divisores_propios_maximales
       El_2019_es_apocaliptico
+      El_2019_es_malvado
       El_teorema_de_Navidad_de_Fermat
       Elemento_del_arbol_binario_completo_segun_su_posicion
       Elemento_solitario
@@ -94,6 +95,7 @@ test-suite spec
       Divisores_compuestos_Spec
       Divisores_propios_maximales_Spec
       El_2019_es_apocaliptico_Spec
+      El_2019_es_malvado_Spec
       El_teorema_de_Navidad_de_Fermat_Spec
       Elemento_del_arbol_binario_completo_segun_su_posicion_Spec
       Elemento_solitario_Spec
