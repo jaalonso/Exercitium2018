@@ -19,8 +19,8 @@ module Arbol_de_subconjuntos where
 \end{comment}
 
 Se dice que A es un subconjunto maximal de B si A ⊂ B y no existe
-ningún C tal que A ⊂ C y C ⊂ B. Por ejemplo, {2,5} es un subconjunto
-maximal de {2,3,5], pero {3] no lo es.
+ningún C tal que A ⊂ C y C ⊂ B. Por ejemplo, \{2,5\} es un subconjunto
+maximal de \{2,3,5\}, pero \{3\} no lo es.
 
 El árbol de los subconjuntos de un conjunto A es el árbol que tiene
 como raíz el conjunto A y cada nodo tiene como hijos sus subconjuntos

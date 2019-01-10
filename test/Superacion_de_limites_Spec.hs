@@ -12,17 +12,17 @@ spec = do
   describe "Verificacion de nuevosMaximos nuevosMinimos nRupturas" $
     verifica nuevosMaximos nuevosMinimos nRupturas
 
-verifica :: ([int] -> [int])
-            -> ([int] -> [int])
-            -> ([int] -> (int,int))
-            -> spec
+verifica :: ([Int] -> [Int])
+            -> ([Int] -> [Int])
+            -> ([Int] -> (Int,Int))
+            -> Spec
 verifica f1 f2 f3 = do
   it "e1" $
-    nuevosmaximos' [7,5,9,9,4,5,4,2,5,9,12,1]  `shouldbe`  [7,9,12]
+    nuevosMaximos' [7,5,9,9,4,5,4,2,5,9,12,1]  `shouldBe`  [7,9,12]
   it "e2" $
-    nuevosminimos' [7,5,9,9,4,5,4,2,5,9,12,1]  `shouldbe`  [7,5,4,2,1]
+    nuevosMinimos' [7,5,9,9,4,5,4,2,5,9,12,1]  `shouldBe`  [7,5,4,2,1]
   it "e3" $
-    nrupturas' [7,5,9,9,4,5,4,2,5,9,12,1]  `shouldbe`  (2,4)
+    nRupturas' [7,5,9,9,4,5,4,2,5,9,12,1]  `shouldBe`  (2,4)
   where nuevosMaximos' = f1
         nuevosMinimos' = f2
         nRupturas'     = f3
