@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: c76456899b4181a95707276c281dc151f50486310d1233e002e10bd7503d0e68
+-- hash: e832e7dad891ea682a28de7bdf071770dcbcecf5d671c7ebf4661fe098f70e38
 
 name:           Exercitium2018
 version:        0.1.0.0
@@ -41,6 +41,7 @@ library
       El_2019_es_apocaliptico
       El_2019_es_malvado
       El_2019_es_semiprimo
+      El_2019_es_un_numero_de_la_suerte
       El_teorema_de_Navidad_de_Fermat
       Elemento_del_arbol_binario_completo_segun_su_posicion
       Elemento_solitario
