@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: e832e7dad891ea682a28de7bdf071770dcbcecf5d671c7ebf4661fe098f70e38
+-- hash: 0733b930455f2a17ef35cf58efff2cf8fb21ca475c34e009fbff4715fd3f9633
 
 name:           Exercitium2018
 version:        0.1.0.0
@@ -32,6 +32,7 @@ library
       Arbol_de_computacion_de_Fibonacci
       Arbol_de_divisores
       Arbol_de_subconjuntos
+      Cadena_descendiente_de_subnumeros
       Capicuas_productos_de_dos_numeros_de_dos_digitos
       Ceros_finales_del_factorial
       Diferencia_simetrica
@@ -90,6 +91,7 @@ test-suite spec
       Arbol_de_computacion_de_Fibonacci_Spec
       Arbol_de_divisores_Spec
       Arbol_de_subconjuntos_Spec
+      Cadena_descendiente_de_subnumeros_Spec
       Capicuas_productos_de_dos_numeros_de_dos_digitos_Spec
       Ceros_finales_del_factorial_Spec
       Diferencia_simetrica_Spec
@@ -99,6 +101,7 @@ test-suite spec
       El_2019_es_apocaliptico_Spec
       El_2019_es_malvado_Spec
       El_2019_es_semiprimo_Spec
+      El_2019_es_un_numero_de_la_suerte_Spec
       El_teorema_de_Navidad_de_Fermat_Spec
       Elemento_del_arbol_binario_completo_segun_su_posicion_Spec
       Elemento_solitario_Spec
