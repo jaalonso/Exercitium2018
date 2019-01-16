@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: cb58f28fda065a5e35789aa4c8341067e85fb0d954fcb7bcc8552154f7ad68b5
+-- hash: 42e8a8da27a0e2c48001027e338995f2eafd61df3a4988e87a3936e2a1a5c4cb
 
 name:           Exercitium2018
 version:        0.1.0.0
@@ -54,6 +54,7 @@ library
       Menor_contenedor_de_primos
       Minimo_producto_escalar
       Numeracion_de_arboles_binarios_completos
+      Numeracion_de_ternas
       Numero_de_divisores_compuestos
       Numeros_autodescriptivos
       Numeros_colinas
@@ -112,6 +113,7 @@ test-suite spec
       Intercambio_de_la_primera_y_ultima_columna_de_una_matriz_Spec
       Listas_equidigitales_Spec
       Menor_contenedor_de_primos_Spec
+      Minimo_producto_escalar_Spec
       Numero_de_divisores_compuestos_Spec
       Numeros_autodescriptivos_Spec
       Numeros_colinas_Spec
