@@ -4,6 +4,12 @@
 % Sevilla, 20 de Noviembre de 2018
 % ---------------------------------------------------------------------
 
+\epigraph {\textit{Toda la imaginería \\
+                   que no ha brotado del río, \\
+                   barata bisutería.}}
+          {Antonio Machado}
+
+
 \begin{comment}
 \begin{code}
 module Numeros_de_parejas where

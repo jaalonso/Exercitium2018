@@ -4,13 +4,17 @@
 % Sevilla, 13 de Diciembre de 2018
 % ---------------------------------------------------------------------
 
-\section*{Enunciado}
+\epigraph {\textit{ Vivir es devorar tiempo, esperar; y por muy
+    trascendente que quiera ser nuestra espera, siempre será espera de
+    seguir esperando.}} {Antonio Machado}
 
 \begin{comment}
 \begin{code}
 module Expresiones_aritméticas_generales where    
 \end{code}
 \end{comment}
+
+\section*{Enunciado}
 
 Las expresiones aritméticas. generales se contruyen con las sumas
 generales (sumatorios) y productos generales (productorios). Su tipo

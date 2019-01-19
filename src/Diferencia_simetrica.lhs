@@ -4,6 +4,11 @@
 % Sevilla, 14 de noviembre de 2018
 % ---------------------------------------------------------------------
 
+\epigraph {\textit{Ya es broma pesada: \\
+                   todo para mí, \\
+                   y yo para nada.}}
+          {Antonio Machado}
+
 \begin{comment}
 \begin{code}
 module Diferencia_simetrica where    

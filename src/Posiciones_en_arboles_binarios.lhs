@@ -4,6 +4,11 @@
 %  Sevilla, 2 de diciembre de 2018
 %  ---------------------------------------------------------------------
 
+\epigraph {\textit{Nunca traces tu frontera, \\
+  ni cuides de tu perfil; \\
+  todo eso es cosa de fuera.}} {Antonio Machado}
+
+
 \begin{comment}
 \begin{code}
 module Posiciones_en_arboles_binarios where    

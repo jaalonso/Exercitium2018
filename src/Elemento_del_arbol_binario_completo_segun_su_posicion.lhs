@@ -4,6 +4,12 @@
 % Sevilla, 6 de diciembre de 2018
 % ---------------------------------------------------------------------
 
+\epigraph {\textit{Las más hondas palabras \\
+  del sabio nos enseñan \\
+  lo que el silbar del viento cuando sopla \\
+  o el sonar de las aguas cuando ruedan.}} {Antonio Machado}
+
+
 \begin{comment}
 \begin{code}
 module Elemento_del_arbol_binario_completo_segun_su_posicion where    

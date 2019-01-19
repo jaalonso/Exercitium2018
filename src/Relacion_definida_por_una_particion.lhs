@@ -4,6 +4,11 @@
 % Sevilla, 22 de noviembre de 2018
 % ---------------------------------------------------------------------
 
+\epigraph {\textit{No hay lío político que no sea un trueque, una
+    confusión de máscaras, un mal ensayo de comedia, en que nadie sabe
+    su papel.}} {Antonio Machado}
+
+
 \section*{Enunciado}
 
 \begin{comment}

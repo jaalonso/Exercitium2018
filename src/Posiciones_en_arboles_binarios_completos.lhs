@@ -4,6 +4,10 @@
 % Sevilla, 5 de diciembre de 2018
 % ---------------------------------------------------------------------
 
+\epigraph {\textit{El ojo que ves no es \\
+  ojo porque tú lo veas; \\
+  es ojo porque te ve.}} {Antonio Machado}
+
 \begin{comment}
 \begin{code}
 module Posiciones_en_arboles_binarios_completos where    

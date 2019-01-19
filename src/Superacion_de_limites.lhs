@@ -4,7 +4,8 @@
 % Sevilla, 14 de diciembre de 2018
 % ---------------------------------------------------------------------
 
-\epigraph{\textit{Todo necio confunde valor y precio.}}{Antonio Machado}
+\epigraph {\textit{Todo necio confunde valor y precio.}} {Antonio
+  Machado}
 
 \section*{Enunciado}
 

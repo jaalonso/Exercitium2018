@@ -4,6 +4,12 @@
 % Sevilla, 9 de noviembre de 2018
 % ---------------------------------------------------------------------
 
+\epigraph {
+\textit{Se miente más de la cuenta \\
+        por falta de fantasía: \\
+        también la verdad se inventa.}}
+{Antonio Machado}
+
 \begin{comment}
 \begin{code}
 module Listas_equidigitales where

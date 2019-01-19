@@ -4,6 +4,11 @@
 %  Sevilla, 13 de noviembre de 2018
 %  ---------------------------------------------------------------------
 
+\epigraph {\textit{Incierto es, lo porvenir. ¿Quién sabe lo que va a
+    pasar? Pero incierto es también lo pretérito. ¿Quién sabe lo que ha
+    pasado? De suerte que ni el porvenir está escrito en ninguna parte,
+    ni el pasado tampoco.}} {Antonio Machado}
+
 \section*{Enunciado}
 
 \begin{comment}

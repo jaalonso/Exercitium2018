@@ -4,6 +4,11 @@
 % Sevilla, 30 de noviembre de 2018
 % ---------------------------------------------------------------------
 
+\epigraph {\textit{Tras el vivir y el soñar, \\
+  está lo que más importa: \\
+  despertar.}} {Antonio Machado}
+
+
 \section*{Enunciado}
 
 \begin{comment}

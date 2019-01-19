@@ -4,6 +4,12 @@
 % Sevilla, 29 de Noviembre de 2018
 % ---------------------------------------------------------------------
 
+\epigraph {\textit{Si me tengo que morir \\
+  poco me importa aprender. \\
+  Y si no puedo saber, \\
+  poco me importa vivir.}} {Antonio Machado}
+
+
 \begin{comment}
 \begin{code}
 module Numeros_colinas where

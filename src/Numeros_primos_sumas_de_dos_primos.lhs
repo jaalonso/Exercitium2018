@@ -4,6 +4,11 @@
 % Sevilla, 26 de Noviembre de 2018
 % ---------------------------------------------------------------------
 
+\epigraph {\textit{Sed incompresivos; yo os aconsejo la incomprensión,
+    aunque sólo sea para destripar los chistes de los tontos.}} {Antonio
+  Machado}
+
+
 \section*{Enunciado}
 
 \begin{comment}

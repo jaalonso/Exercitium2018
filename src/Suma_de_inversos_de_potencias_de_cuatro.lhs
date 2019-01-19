@@ -4,6 +4,11 @@
 % Sevilla, 27 de noviembre de 2018
 % ---------------------------------------------------------------------
 
+\epigraph {\textit{Confiamos \\
+  en que no será verdad \\
+  nada de lo que pensamos.}} {Antonio Machado}
+
+
 \section*{Enunciado}
 
 \begin{comment}

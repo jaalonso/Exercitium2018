@@ -4,6 +4,10 @@
 % Sevilla, 3 de Diciembre de 2018
 % ---------------------------------------------------------------------
 
+\epigraph {\textit{-- Ya se oyen palabras viejas. \\
+  -- Pues aguzad las orejas.}} {Antonio Machado}
+
+
 \begin{comment}
 \begin{code}
 module Numeracion_de_arboles_binarios_completos where

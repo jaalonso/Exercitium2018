@@ -4,6 +4,11 @@
 % Sevilla, 7 de diciembre de 2018
 % ---------------------------------------------------------------------
 
+\epigraph {\textit{``Sólo sé que no se nada'' contenía la jactancia de un excesivo saber,
+  puesto que olvidó añadir: y aun de esto mismo no estoy completamente
+  seguro.}} {Antonio Machado}
+
+
 \begin{comment}
 \begin{code}
 module Aproximacion_entre_pi_y_e where 

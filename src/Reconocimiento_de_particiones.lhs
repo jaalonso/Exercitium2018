@@ -4,6 +4,11 @@
 % Sevilla, 21 de noviembre de 2018
 % ---------------------------------------------------------------------
 
+\epigraph {\textit{Sentía los cuatro vientos, \\
+  en la encrucijada \\
+  de su pensamiento.}} {Antonio Machado}
+
+
 \section*{Enunciado}
 
 \begin{comment}

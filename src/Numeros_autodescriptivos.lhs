@@ -4,6 +4,12 @@
 % Sevilla, 19 de Noviembre de 2018
 % ---------------------------------------------------------------------
 
+\epigraph {\textit{Hay que tener los ojos muy abiertos para ver las
+    cosas como son; aún más abiertos para verlas otras de lo que son;
+    más abiertos todavía para verlas mejores de lo que son.}} {Antonio
+  Machado}
+
+
 \begin{comment}
 \begin{code}
 module Numeros_autodescriptivos where

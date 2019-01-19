@@ -4,13 +4,16 @@
 % Sevilla, 12 de diciembre de 2018
 % ---------------------------------------------------------------------
 
-\section*{Enunciado}
+\epigraph {\textit{Las razones no se transmiten, se engendran, por
+    cooperación, en el diálogo.}} {Antonio Machado}
 
 \begin{comment}
 \begin{code}
 module Entre_dos_conjuntos where    
 \end{code}
 \end{comment}
+
+\section*{Enunciado}
 
 Se dice que un x número se encuentra entre dos conjuntos xs e ys si x
 es divisible por todos los elementos de xs y todos los elementos de

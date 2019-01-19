@@ -4,6 +4,10 @@
 % Sevilla, 16 de noviembre de 2018
 % ---------------------------------------------------------------------
 
+\epigraph {\textit{Ayudadme a comprender lo que os digo, y os lo
+    explicaré más despacio.}} {Antonio Machado}
+
+
 \begin{comment}
 \begin{code}
 module Capicuas_productos_de_dos_numeros_de_dos_digitos where    

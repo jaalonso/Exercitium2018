@@ -4,6 +4,11 @@
 % Sevilla, 23 de noviembre de 2018
 % ---------------------------------------------------------------------
 
+\epigraph {\textit{El escepticismo que, lejos de ser, como muchos creen,
+    un afán de negarlo todo es, por el contrario, el único medio de
+    defender algunas cosas.}} {Antonio Machado}
+
+
 \begin{comment}
 \begin{code}
 module Ceros_finales_del_factorial where

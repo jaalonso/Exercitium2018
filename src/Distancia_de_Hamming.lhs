@@ -6,6 +6,11 @@
 
 \section*{Enunciado}
 
+\epigraph {\textit{En mi soledad \\
+                   he visto cosas muy claras, \\
+                   que no son verdad.}}
+{Antonio Machado}
+
 \begin{comment}
 \begin{code}
 module Distancia_de_Hamming where

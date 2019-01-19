@@ -4,6 +4,12 @@
 % Sevilla, 15 de noviembre de 2018
 % ---------------------------------------------------------------------
 
+\epigraph {\textit{Algunos sentimientos perduran a través de los siglos,
+    pero no por eso han de ser eternos. ¿Cuántos siglos durará todavía
+    el sentimiento de la patria? ¿Y el sentimiento de la paternidad.}}
+{Antonio Machado}
+
+
 \section*{Enunciado}
 
 \begin{comment}

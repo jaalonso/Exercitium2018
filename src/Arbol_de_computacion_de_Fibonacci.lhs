@@ -4,13 +4,15 @@
 % Sevilla, 11 de Diciembre de 2018
 % ---------------------------------------------------------------------
 
-\section*{Enunciado}
+\epigraph {\textit{Toda visión requiere distancia.}} {Antonio Machado}
 
 \begin{comment}
 \begin{code}
 module Arbol_de_computacion_de_Fibonacci where    
 \end{code}
 \end{comment}
+
+\section*{Enunciado}
 
 La sucesión de Fibonacci es
 \begin{descripcion}

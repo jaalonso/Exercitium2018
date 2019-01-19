@@ -4,6 +4,12 @@
 % Sevilla, 28 de Noviembre de 2018
 % ---------------------------------------------------------------------
 
+\epigraph {\textit{Sube y sube, pero ten \\
+  cuidado Nefelibata, \\
+  que entre las nubes también, \\
+  se puede meter la pata.}} {Antonio Machado}
+
+
 \begin{comment}
 \begin{code}
 module Elemento_solitario where
