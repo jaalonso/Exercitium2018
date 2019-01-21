@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 11b0d5a3b69ac2a811afbba5f8aa51dc103787814b515b1aef031a2b413587e2
+-- hash: 41aca5d67f4df450bddc513b8662cbd2ae289c8d6c569e958d6b1dd09965ca65
 
 name:           Exercitium2018
 version:        0.1.0.0
@@ -63,6 +63,7 @@ library
       Numeros_libres_de_cuadrados
       Numeros_primos_de_Pierpont
       Numeros_primos_sumas_de_dos_primos
+      Ofertas_3_por_2
       Posiciones_en_arboles_binarios
       Posiciones_en_arboles_binarios_completos
       Raiz_cubica_entera
@@ -125,6 +126,7 @@ test-suite spec
       Numeros_libres_de_cuadrados_Spec
       Numeros_primos_de_Pierpont_Spec
       Numeros_primos_sumas_de_dos_primos_Spec
+      Ofertas_3_por_2_Spec
       Posiciones_en_arboles_binarios_completos_Spec
       Posiciones_en_arboles_binarios_Spec
       Raiz_cubica_entera_Spec
