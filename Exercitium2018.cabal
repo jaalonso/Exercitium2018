@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 2a7c26186258a62cc5d4351367bfe55e72d33c8acf196b797d4352fd1df91373
+-- hash: 523a6d921fb643b79285ada078bf038cb998c2b9a2ff8998986c7b41e0f00c27
 
 name:           Exercitium2018
 version:        0.1.0.0
@@ -57,6 +57,7 @@ library
       Numeracion_de_arboles_binarios_completos
       Numeracion_de_ternas
       Numero_de_divisores_compuestos
+      Numeros_altamente_compuestos
       Numeros_autodescriptivos
       Numeros_colinas
       Numeros_de_parejas
@@ -84,6 +85,7 @@ library
   build-depends:
       QuickCheck >=2.9.2
     , base >=4.7 && <5
+    , gnuplot
     , hspec
     , hspec-core
     , primes
@@ -121,6 +123,7 @@ test-suite spec
       Minimo_producto_escalar_Spec
       Numeracion_de_ternas_Spec
       Numero_de_divisores_compuestos_Spec
+      Numeros_altamente_compuestos_Spec
       Numeros_autodescriptivos_Spec
       Numeros_colinas_Spec
       Numeros_de_parejas_Spec
@@ -134,6 +137,7 @@ test-suite spec
       Reconocimiento_de_conmutatividad_Spec
       Reconocimiento_de_particiones_Spec
       Relacion_definida_por_una_particion_Spec
+      Representacion_de_conjuntos_mediante_intervalos_Spec
       Subarboles_monovalorados_Spec
       Suma_de_inversos_de_potencias_de_cuatro_Spec
       Superacion_de_limites_Spec
@@ -147,6 +151,7 @@ test-suite spec
       Exercitium2018
     , QuickCheck >=2.9.2
     , base
+    , gnuplot
     , hspec
     , hspec-core
     , primes
