@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 523a6d921fb643b79285ada078bf038cb998c2b9a2ff8998986c7b41e0f00c27
+-- hash: 4a7e30b5db1cedf349c6312e04c939812e3a1ff2ce624d4981e85a59a08a3f2f
 
 name:           Exercitium2018
 version:        0.1.0.0
@@ -65,6 +65,7 @@ library
       Numeros_primos_de_Pierpont
       Numeros_primos_sumas_de_dos_primos
       Ofertas_3_por_2
+      Posiciones_del_2019_en_el_numero_pi
       Posiciones_en_arboles_binarios
       Posiciones_en_arboles_binarios_completos
       Raiz_cubica_entera
@@ -85,6 +86,7 @@ library
   build-depends:
       QuickCheck >=2.9.2
     , base >=4.7 && <5
+    , directory
     , gnuplot
     , hspec
     , hspec-core
@@ -131,6 +133,7 @@ test-suite spec
       Numeros_primos_de_Pierpont_Spec
       Numeros_primos_sumas_de_dos_primos_Spec
       Ofertas_3_por_2_Spec
+      Posiciones_del_2019_en_el_numero_pi_Spec
       Posiciones_en_arboles_binarios_completos_Spec
       Posiciones_en_arboles_binarios_Spec
       Raiz_cubica_entera_Spec
@@ -151,6 +154,7 @@ test-suite spec
       Exercitium2018
     , QuickCheck >=2.9.2
     , base
+    , directory
     , gnuplot
     , hspec
     , hspec-core
