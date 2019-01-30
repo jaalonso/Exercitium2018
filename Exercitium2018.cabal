@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: a85e565f58d8f241a37ac2c2a248664f045499a430442d69df1b1a62683b42f3
+-- hash: f7f905b6a939ac4eb183a32692017bc3d824ba3b5d347bf8e5a1654157c2dce9
 
 name:           Exercitium2018
 version:        0.1.0.0
@@ -75,7 +75,9 @@ library
       Reconocimiento_de_particiones
       Relacion_definida_por_una_particion
       Representacion_de_conjuntos_mediante_intervalos
+      Soluciones_de_x2y3k
       Subarboles_monovalorados
+      Sucesion_triangular
       Suma_de_inversos_de_potencias_de_cuatro
       Superacion_de_limites
       Tablas_de_operaciones_binarias
@@ -145,7 +147,9 @@ test-suite spec
       Reconocimiento_de_particiones_Spec
       Relacion_definida_por_una_particion_Spec
       Representacion_de_conjuntos_mediante_intervalos_Spec
+      Soluciones_de_x2y3k_Spec
       Subarboles_monovalorados_Spec
+      Sucesion_triangular_Spec
       Suma_de_inversos_de_potencias_de_cuatro_Spec
       Superacion_de_limites_Spec
       Tablas_de_operaciones_binarias_Spec
