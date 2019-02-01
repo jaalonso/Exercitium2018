@@ -21,7 +21,7 @@ Esta semana se ha publicado en \href{http://bit.ly/2Qg4qVQ}{Twitter} una
 demostración visual de que
    $$1/4 + 1/4² + 1/4³ + \dots = 1/3$$
 como se muestra en la siguiente imagen
-\begin{figure}[h]
+\begin{figure}[ht]
   \centering
   \includegraphics[scale=0.5]{../src/Suma_de_inversos_de_potencias_de_cuatro.png}
 \end{figure}

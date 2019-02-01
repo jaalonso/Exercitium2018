@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: f7f905b6a939ac4eb183a32692017bc3d824ba3b5d347bf8e5a1654157c2dce9
+-- hash: b268731d6bf8b27c6b64be55b44010aeb599c89dcc5977ef3539f8fefa5d9450
 
 name:           Exercitium2018
 version:        0.1.0.0
@@ -65,6 +65,7 @@ library
       Numeros_de_parejas
       Numeros_libres_de_cuadrados
       Numeros_primos_de_Pierpont
+      Numeros_primos_en_pi
       Numeros_primos_sumas_de_dos_primos
       Ofertas_3_por_2
       Posiciones_del_2019_en_el_numero_pi
@@ -137,6 +138,7 @@ test-suite spec
       Numeros_de_parejas_Spec
       Numeros_libres_de_cuadrados_Spec
       Numeros_primos_de_Pierpont_Spec
+      Numeros_primos_en_pi_Spec
       Numeros_primos_sumas_de_dos_primos_Spec
       Ofertas_3_por_2_Spec
       Posiciones_del_2019_en_el_numero_pi_Spec

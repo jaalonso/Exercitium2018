@@ -69,7 +69,54 @@
 % \setlength\cftparskip{-2pt}
 % \setlength\cftbeforechapskip{0pt}
 
-\usepackage{epigraph} % Para citas al principio del capítulo
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% § epigraph: Para citas al principio del capítulo                   %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \usepackage{epigraph} % Para citas al principio del capítulo
+\usepackage{epigraph,varwidth}
+
+\renewcommand{\epigraphsize}{\small}
+\setlength{\epigraphwidth}{0.6\textwidth}
+\renewcommand{\textflush}{flushleft}
+\renewcommand{\sourceflush}{flushleft}
+% A useful addition
+\newcommand{\epitextfont}{\itshape}
+% \newcommand{\episourcefont}{\scshape}
+\newcommand{\episourcefont}{\normalfont}
+
+\makeatletter
+\newsavebox{\epi@textbox}
+\newsavebox{\epi@sourcebox}
+\newlength\epi@finalwidth
+\renewcommand{\epigraph}[2]{%
+  \vspace{\beforeepigraphskip}
+  {\epigraphsize\begin{\epigraphflush}
+   \epi@finalwidth=\z@
+   \sbox\epi@textbox{%
+     \varwidth{\epigraphwidth}
+     \begin{\textflush}\epitextfont#1\end{\textflush}
+     \endvarwidth
+   }%
+   \epi@finalwidth=\wd\epi@textbox
+   \sbox\epi@sourcebox{%
+     \varwidth{\epigraphwidth}
+     \begin{\sourceflush}\episourcefont#2\end{\sourceflush}%
+     \endvarwidth
+   }%
+   \ifdim\wd\epi@sourcebox>\epi@finalwidth 
+     \epi@finalwidth=\wd\epi@sourcebox
+   \fi
+   \leavevmode\vbox{
+     \hb@xt@\epi@finalwidth{\hfil\box\epi@textbox}
+     \vskip1.75ex
+     \hrule height \epigraphrule
+     \vskip.75ex
+     \hb@xt@\epi@finalwidth{\hfil\box\epi@sourcebox}
+   }%
+   \end{\epigraphflush}
+   \vspace{\afterepigraphskip}}}
+\makeatother
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% § Cabeceras                                                              %%
@@ -531,6 +578,14 @@ Se han añadido los ejercicios resueltos hasta del 14 al 18 de enero:
 \chapter{Sucesión triangular}
 \label{190123}
 \entrada{Sucesion_triangular}
+
+\chapter{Números primos en pi}
+\label{190124}
+\entrada{Numeros_primos_en_pi}
+
+\chapter{Recorrido de árboles en espiral}
+\label{190125}
+\entrada{Recorrido_de_arboles_en_espiral}
 
 \end{document}
 
