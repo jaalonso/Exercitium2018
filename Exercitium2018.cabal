@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: b268731d6bf8b27c6b64be55b44010aeb599c89dcc5977ef3539f8fefa5d9450
+-- hash: 9e12a96fc7ea16915efcfb19b61cde582ff91c2572fd1fb1fe88f0a1b04a570b
 
 name:           Exercitium2018
 version:        0.1.0.0
@@ -62,6 +62,7 @@ library
       Numeros_altamente_compuestos
       Numeros_autodescriptivos
       Numeros_colinas
+      Numeros_con_digitos_1_y_2
       Numeros_de_parejas
       Numeros_libres_de_cuadrados
       Numeros_primos_de_Pierpont
@@ -74,6 +75,7 @@ library
       Raiz_cubica_entera
       Reconocimiento_de_conmutatividad
       Reconocimiento_de_particiones
+      Recorrido_de_arboles_en_espiral
       Relacion_definida_por_una_particion
       Representacion_de_conjuntos_mediante_intervalos
       Soluciones_de_x2y3k
@@ -135,6 +137,7 @@ test-suite spec
       Numeros_altamente_compuestos_Spec
       Numeros_autodescriptivos_Spec
       Numeros_colinas_Spec
+      Numeros_con_digitos_1_y_2_Spec
       Numeros_de_parejas_Spec
       Numeros_libres_de_cuadrados_Spec
       Numeros_primos_de_Pierpont_Spec
@@ -147,6 +150,7 @@ test-suite spec
       Raiz_cubica_entera_Spec
       Reconocimiento_de_conmutatividad_Spec
       Reconocimiento_de_particiones_Spec
+      Recorrido_de_arboles_en_espiral_Spec
       Relacion_definida_por_una_particion_Spec
       Representacion_de_conjuntos_mediante_intervalos_Spec
       Soluciones_de_x2y3k_Spec
