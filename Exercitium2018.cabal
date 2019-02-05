@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 9e12a96fc7ea16915efcfb19b61cde582ff91c2572fd1fb1fe88f0a1b04a570b
+-- hash: a85cdca9b6b3ab0143b7ab13117645471cd6c0ae67403e7863bb54eca07afca8
 
 name:           Exercitium2018
 version:        0.1.0.0
@@ -32,6 +32,7 @@ library
       Arbol_de_computacion_de_Fibonacci
       Arbol_de_divisores
       Arbol_de_subconjuntos
+      Arboles_con_n_elementos
       Cadena_descendiente_de_subnumeros
       Capicuas_productos_de_dos_numeros_de_dos_digitos
       Ceros_finales_del_factorial
@@ -108,6 +109,7 @@ test-suite spec
       Arbol_de_computacion_de_Fibonacci_Spec
       Arbol_de_divisores_Spec
       Arbol_de_subconjuntos_Spec
+      Arboles_con_n_elementos_Spec
       Cadena_descendiente_de_subnumeros_Spec
       Capicuas_productos_de_dos_numeros_de_dos_digitos_Spec
       Ceros_finales_del_factorial_Spec
