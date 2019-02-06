@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: a85cdca9b6b3ab0143b7ab13117645471cd6c0ae67403e7863bb54eca07afca8
+-- hash: 691f399c42845af42808ab47830395dcc1a81e4fe6327e9fb205e6136874d272
 
 name:           Exercitium2018
 version:        0.1.0.0
@@ -50,6 +50,7 @@ library
       Entre_dos_conjuntos
       Expresiones_aritméticas_generales
       Grado_exponencial
+      Impares_en_filas_del_triangulo_de_Pascal
       Intercambio_de_la_primera_y_ultima_columna_de_una_matriz
       Interseccion_de_listas_infinitas_crecientes
       Listas_equidigitales
@@ -127,6 +128,7 @@ test-suite spec
       Entre_dos_conjuntos_Spec
       Expresiones_aritméticas_generales_Spec
       Grado_exponencial_Spec
+      Impares_en_filas_del_triangulo_de_Pascal_Spec
       Intercambio_de_la_primera_y_ultima_columna_de_una_matriz_Spec
       Interseccion_de_listas_infinitas_crecientes_Spec
       Listas_equidigitales_Spec
