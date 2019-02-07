@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 691f399c42845af42808ab47830395dcc1a81e4fe6327e9fb205e6136874d272
+-- hash: 20e5139966fb3776526d2fbbebd16557eea5bf45f3b9068759170add87dd452b
 
 name:           Exercitium2018
 version:        0.1.0.0
@@ -86,6 +86,7 @@ library
       Suma_de_inversos_de_potencias_de_cuatro
       Superacion_de_limites
       Tablas_de_operaciones_binarias
+      Triangulo_de_Pascal_binario
       Ultimo_digito_no_nulo_del_factorial
   other-modules:
       Paths_Exercitium2018
