@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 20e5139966fb3776526d2fbbebd16557eea5bf45f3b9068759170add87dd452b
+-- hash: d6fd4823d1ba274d7941522499b327de9014bf482a83db4b35893a90d94973de
 
 name:           Exercitium2018
 version:        0.1.0.0
@@ -37,6 +37,7 @@ library
       Capicuas_productos_de_dos_numeros_de_dos_digitos
       Ceros_finales_del_factorial
       Diferencia_simetrica
+      Digitos_pares_de_cuadrados
       Distancia_de_Hamming
       Divisores_compuestos
       Divisores_propios_maximales
@@ -53,8 +54,10 @@ library
       Impares_en_filas_del_triangulo_de_Pascal
       Intercambio_de_la_primera_y_ultima_columna_de_una_matriz
       Interseccion_de_listas_infinitas_crecientes
+      Limites_de_sucesiones
       Listas_equidigitales
       Mayor_prefijo_con_suma_acotada
+      Medias_de_digitos_de_pi
       Menor_contenedor_de_primos
       Minimo_numero_de_operaciones_para_transformar_un_numero_en_otro
       Minimo_producto_escalar
@@ -116,6 +119,7 @@ test-suite spec
       Capicuas_productos_de_dos_numeros_de_dos_digitos_Spec
       Ceros_finales_del_factorial_Spec
       Diferencia_simetrica_Spec
+      Digitos_pares_de_cuadrados_Spec
       Distancia_de_Hamming_Spec
       Divisores_compuestos_Spec
       Divisores_propios_maximales_Spec
@@ -132,8 +136,10 @@ test-suite spec
       Impares_en_filas_del_triangulo_de_Pascal_Spec
       Intercambio_de_la_primera_y_ultima_columna_de_una_matriz_Spec
       Interseccion_de_listas_infinitas_crecientes_Spec
+      Limites_de_sucesiones_Spec
       Listas_equidigitales_Spec
       Mayor_prefijo_con_suma_acotada_Spec
+      Medias_de_digitos_de_pi_Spec
       Menor_contenedor_de_primos_Spec
       Minimo_numero_de_operaciones_para_transformar_un_numero_en_otro_Spec
       Minimo_producto_escalar_Spec
@@ -164,6 +170,7 @@ test-suite spec
       Suma_de_inversos_de_potencias_de_cuatro_Spec
       Superacion_de_limites_Spec
       Tablas_de_operaciones_binarias_Spec
+      Triangulo_de_Pascal_binario_Spec
       Ultimo_digito_no_nulo_del_factorial_Spec
       Paths_Exercitium2018
   hs-source-dirs:
