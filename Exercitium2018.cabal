@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: d6fd4823d1ba274d7941522499b327de9014bf482a83db4b35893a90d94973de
+-- hash: 9e9eab5d0fb86e1f63cb443e246387e3c80d6f39755a6191872c109954e96637
 
 name:           Exercitium2018
 version:        0.1.0.0
@@ -50,6 +50,7 @@ library
       Elemento_solitario
       Entre_dos_conjuntos
       Expresiones_aritméticas_generales
+      Exterior_de_arboles
       Grado_exponencial
       Impares_en_filas_del_triangulo_de_Pascal
       Intercambio_de_la_primera_y_ultima_columna_de_una_matriz
@@ -132,6 +133,7 @@ test-suite spec
       Elemento_solitario_Spec
       Entre_dos_conjuntos_Spec
       Expresiones_aritméticas_generales_Spec
+      Exterior_de_arboles_Spec
       Grado_exponencial_Spec
       Impares_en_filas_del_triangulo_de_Pascal_Spec
       Intercambio_de_la_primera_y_ultima_columna_de_una_matriz_Spec
