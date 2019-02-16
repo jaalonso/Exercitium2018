@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 9e9eab5d0fb86e1f63cb443e246387e3c80d6f39755a6191872c109954e96637
+-- hash: cb225a5681ced68032373857409b104e031708e79de139b8cf3821a14c26a421
 
 name:           Exercitium2018
 version:        0.1.0.0
@@ -33,6 +33,8 @@ library
       Arbol_de_divisores
       Arbol_de_subconjuntos
       Arboles_con_n_elementos
+      Aritmetica_lunar
+      Aritmetica_lunar
       Cadena_descendiente_de_subnumeros
       Capicuas_productos_de_dos_numeros_de_dos_digitos
       Ceros_finales_del_factorial
@@ -90,6 +92,7 @@ library
       Suma_de_inversos_de_potencias_de_cuatro
       Superacion_de_limites
       Tablas_de_operaciones_binarias
+      Termino_ausente_en_una_progresion_aritmetica
       Triangulo_de_Pascal_binario
       Ultimo_digito_no_nulo_del_factorial
   other-modules:
@@ -116,6 +119,7 @@ test-suite spec
       Arbol_de_divisores_Spec
       Arbol_de_subconjuntos_Spec
       Arboles_con_n_elementos_Spec
+      Aritmetica_lunar_Spec
       Cadena_descendiente_de_subnumeros_Spec
       Capicuas_productos_de_dos_numeros_de_dos_digitos_Spec
       Ceros_finales_del_factorial_Spec
