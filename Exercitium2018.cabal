@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: cb225a5681ced68032373857409b104e031708e79de139b8cf3821a14c26a421
+-- hash: ed7c0d988dc1a3183b3148caef2e0b63f74092f4908a105a2f07bbb17b03f680
 
 name:           Exercitium2018
 version:        0.1.0.0
@@ -77,6 +77,7 @@ library
       Numeros_primos_en_pi
       Numeros_primos_sumas_de_dos_primos
       Ofertas_3_por_2
+      Particiones_de_enteros_positivos
       Posiciones_del_2019_en_el_numero_pi
       Posiciones_en_arboles_binarios
       Posiciones_en_arboles_binarios_completos
@@ -90,6 +91,7 @@ library
       Subarboles_monovalorados
       Sucesion_triangular
       Suma_de_inversos_de_potencias_de_cuatro
+      Sumas_de_dos_abundantes
       Superacion_de_limites
       Tablas_de_operaciones_binarias
       Termino_ausente_en_una_progresion_aritmetica
@@ -161,6 +163,7 @@ test-suite spec
       Numeros_primos_en_pi_Spec
       Numeros_primos_sumas_de_dos_primos_Spec
       Ofertas_3_por_2_Spec
+      Particiones_de_enteros_positivos_Spec
       Posiciones_del_2019_en_el_numero_pi_Spec
       Posiciones_en_arboles_binarios_completos_Spec
       Posiciones_en_arboles_binarios_Spec
@@ -174,8 +177,10 @@ test-suite spec
       Subarboles_monovalorados_Spec
       Sucesion_triangular_Spec
       Suma_de_inversos_de_potencias_de_cuatro_Spec
+      Sumas_de_dos_abundantes_Spec
       Superacion_de_limites_Spec
       Tablas_de_operaciones_binarias_Spec
+      Termino_ausente_en_una_progresion_aritmetica_Spec
       Triangulo_de_Pascal_binario_Spec
       Ultimo_digito_no_nulo_del_factorial_Spec
       Paths_Exercitium2018
