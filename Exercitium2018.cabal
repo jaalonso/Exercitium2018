@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: ed7c0d988dc1a3183b3148caef2e0b63f74092f4908a105a2f07bbb17b03f680
+-- hash: 5e0bd4cd72fc4bbfe9e9dc5942db07ced0d1d035a1bac3798f919a48f87255fa
 
 name:           Exercitium2018
 version:        0.1.0.0
@@ -36,6 +36,7 @@ library
       Aritmetica_lunar
       Aritmetica_lunar
       Cadena_descendiente_de_subnumeros
+      Calculo_de_pi_mediante_la_serie_de_Nilakantha
       Capicuas_productos_de_dos_numeros_de_dos_digitos
       Ceros_finales_del_factorial
       Diferencia_simetrica
@@ -123,6 +124,7 @@ test-suite spec
       Arboles_con_n_elementos_Spec
       Aritmetica_lunar_Spec
       Cadena_descendiente_de_subnumeros_Spec
+      Calculo_de_pi_mediante_la_serie_de_Nilakantha_Spec
       Capicuas_productos_de_dos_numeros_de_dos_digitos_Spec
       Ceros_finales_del_factorial_Spec
       Diferencia_simetrica_Spec
