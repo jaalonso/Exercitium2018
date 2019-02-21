@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 5e0bd4cd72fc4bbfe9e9dc5942db07ced0d1d035a1bac3798f919a48f87255fa
+-- hash: 0727272c814f27473bccf4a389f98460a12e82fa156b605afd7be6b95405cc36
 
 name:           Exercitium2018
 version:        0.1.0.0
@@ -88,6 +88,7 @@ library
       Recorrido_de_arboles_en_espiral
       Relacion_definida_por_una_particion
       Representacion_de_conjuntos_mediante_intervalos
+      Simplificacion_de_expresiones_booleanas
       Soluciones_de_x2y3k
       Subarboles_monovalorados
       Sucesion_triangular
