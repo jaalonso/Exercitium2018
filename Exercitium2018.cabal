@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 0727272c814f27473bccf4a389f98460a12e82fa156b605afd7be6b95405cc36
+-- hash: 0d170d8de584af337929320e248d7c35656d40f23371b98dc1a0883a531cc538
 
 name:           Exercitium2018
 version:        0.1.0.0
@@ -33,7 +33,6 @@ library
       Arbol_de_divisores
       Arbol_de_subconjuntos
       Arboles_con_n_elementos
-      Aritmetica_lunar
       Aritmetica_lunar
       Cadena_descendiente_de_subnumeros
       Calculo_de_pi_mediante_la_serie_de_Nilakantha
@@ -91,6 +90,7 @@ library
       Simplificacion_de_expresiones_booleanas
       Soluciones_de_x2y3k
       Subarboles_monovalorados
+      Sucesion_de_Cantor_de_numeros_innombrables
       Sucesion_triangular
       Suma_de_inversos_de_potencias_de_cuatro
       Sumas_de_dos_abundantes
@@ -176,8 +176,10 @@ test-suite spec
       Recorrido_de_arboles_en_espiral_Spec
       Relacion_definida_por_una_particion_Spec
       Representacion_de_conjuntos_mediante_intervalos_Spec
+      Simplificacion_de_expresiones_booleanas_Spec
       Soluciones_de_x2y3k_Spec
       Subarboles_monovalorados_Spec
+      Sucesion_de_Cantor_de_numeros_innombrables_Spec
       Sucesion_triangular_Spec
       Suma_de_inversos_de_potencias_de_cuatro_Spec
       Sumas_de_dos_abundantes_Spec
