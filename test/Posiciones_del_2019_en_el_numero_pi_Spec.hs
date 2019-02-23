@@ -2,10 +2,9 @@ module Posiciones_del_2019_en_el_numero_pi_Spec (main, spec) where
 
 import Posiciones_del_2019_en_el_numero_pi
 import Test.Hspec
-import System.Directory (withCurrentDirectory)
 
 main :: IO ()
-main = withCurrentDirectory "src" (hspec spec)
+main = hspec spec
 
 spec :: Spec
 spec = do

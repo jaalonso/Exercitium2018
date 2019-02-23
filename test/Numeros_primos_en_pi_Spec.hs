@@ -2,10 +2,9 @@ module Numeros_primos_en_pi_Spec (main, spec) where
 
 import Numeros_primos_en_pi
 import Test.Hspec
-import System.Directory (withCurrentDirectory)
 
 main :: IO ()
-main = withCurrentDirectory "src" (hspec spec)
+main = hspec spec
 
 spec :: Spec
 spec = do
