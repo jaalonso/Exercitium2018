@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 0d170d8de584af337929320e248d7c35656d40f23371b98dc1a0883a531cc538
+-- hash: 5a8f677400edeee601b142942f9508a4a729b4c7e048dcb8273e2a7bee5835cf
 
 name:           Exercitium2018
 version:        0.1.0.0
@@ -62,6 +62,7 @@ library
       Mayor_prefijo_con_suma_acotada
       Medias_de_digitos_de_pi
       Menor_contenedor_de_primos
+      Mezcla_de_listas
       Minimo_numero_de_operaciones_para_transformar_un_numero_en_otro
       Minimo_producto_escalar
       Numeracion_de_arboles_binarios_completos
@@ -97,6 +98,7 @@ library
       Superacion_de_limites
       Tablas_de_operaciones_binarias
       Termino_ausente_en_una_progresion_aritmetica
+      Ternas_euclideas
       Triangulo_de_Pascal_binario
       Ultimo_digito_no_nulo_del_factorial
   other-modules:
@@ -152,6 +154,7 @@ test-suite spec
       Mayor_prefijo_con_suma_acotada_Spec
       Medias_de_digitos_de_pi_Spec
       Menor_contenedor_de_primos_Spec
+      Mezcla_de_listas_Spec
       Minimo_numero_de_operaciones_para_transformar_un_numero_en_otro_Spec
       Minimo_producto_escalar_Spec
       Numeracion_de_ternas_Spec
@@ -186,6 +189,7 @@ test-suite spec
       Superacion_de_limites_Spec
       Tablas_de_operaciones_binarias_Spec
       Termino_ausente_en_una_progresion_aritmetica_Spec
+      Ternas_euclideas_Spec
       Triangulo_de_Pascal_binario_Spec
       Ultimo_digito_no_nulo_del_factorial_Spec
       Paths_Exercitium2018
