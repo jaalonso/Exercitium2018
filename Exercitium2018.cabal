@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 5a8f677400edeee601b142942f9508a4a729b4c7e048dcb8273e2a7bee5835cf
+-- hash: 7a4f5f16802b383a2f4554a30f3223e4e797b4a72201bd1879c157cb15037e25
 
 name:           Exercitium2018
 version:        0.1.0.0
@@ -59,6 +59,7 @@ library
       Interseccion_de_listas_infinitas_crecientes
       Limites_de_sucesiones
       Listas_equidigitales
+      Mayor_exponente
       Mayor_prefijo_con_suma_acotada
       Medias_de_digitos_de_pi
       Menor_contenedor_de_primos
@@ -151,6 +152,7 @@ test-suite spec
       Interseccion_de_listas_infinitas_crecientes_Spec
       Limites_de_sucesiones_Spec
       Listas_equidigitales_Spec
+      Mayor_exponente_Spec
       Mayor_prefijo_con_suma_acotada_Spec
       Medias_de_digitos_de_pi_Spec
       Menor_contenedor_de_primos_Spec
