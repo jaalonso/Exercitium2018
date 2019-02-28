@@ -1,0 +1,7 @@
+la Figura \ref{fig:?etiqueta}
+    \begin{figure}[hp]
+      \centering
+      \includegraphics[scale=0.5]{../src/?fig.png}
+      \caption{(?exp)}
+      \label{fig:?etiqueta}
+    \end{figure}

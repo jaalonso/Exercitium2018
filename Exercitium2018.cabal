@@ -1,10 +1,8 @@
-cabal-version: 1.12
-
--- This file has been generated from package.yaml by hpack version 0.31.1.
+-- This file has been generated from package.yaml by hpack version 0.28.2.
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 7a4f5f16802b383a2f4554a30f3223e4e797b4a72201bd1879c157cb15037e25
+-- hash: 76e6f1d123e1fbeed32838ef7e2373acc7e1af49b2d92fc94175150307452543
 
 name:           Exercitium2018
 version:        0.1.0.0
@@ -19,6 +17,7 @@ copyright:      Jose A. Alonso
 license:        BSD3
 license-file:   LICENSE
 build-type:     Simple
+cabal-version:  >= 1.10
 extra-source-files:
     README.org
 
@@ -69,6 +68,7 @@ library
       Numeracion_de_arboles_binarios_completos
       Numeracion_de_ternas
       Numero_de_divisores_compuestos
+      Numero_de_sumandos_en_suma_de_cuadrados
       Numeros_altamente_compuestos
       Numeros_autodescriptivos
       Numeros_colinas
@@ -109,6 +109,7 @@ library
   ghc-options: -Wall -fno-warn-type-defaults
   build-depends:
       QuickCheck >=2.9.2
+    , array >=0.5
     , base >=4.7 && <5
     , directory
     , gnuplot
@@ -161,6 +162,7 @@ test-suite spec
       Minimo_producto_escalar_Spec
       Numeracion_de_ternas_Spec
       Numero_de_divisores_compuestos_Spec
+      Numero_de_sumandos_en_suma_de_cuadrados_Spec
       Numeros_altamente_compuestos_Spec
       Numeros_autodescriptivos_Spec
       Numeros_colinas_Spec
@@ -201,6 +203,7 @@ test-suite spec
   build-depends:
       Exercitium2018
     , QuickCheck >=2.9.2
+    , array >=0.5
     , base
     , directory
     , gnuplot
