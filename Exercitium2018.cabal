@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 76e6f1d123e1fbeed32838ef7e2373acc7e1af49b2d92fc94175150307452543
+-- hash: a9bd5413ce8cd15a00c5bb7955c41c5981149e3c387873b5b36ed535219755f9
 
 name:           Exercitium2018
 version:        0.1.0.0
@@ -40,6 +40,7 @@ library
       Diferencia_simetrica
       Digitos_pares_de_cuadrados
       Distancia_de_Hamming
+      Divisiones_del_circulo
       Divisores_compuestos
       Divisores_propios_maximales
       El_2019_es_apocaliptico
@@ -135,6 +136,7 @@ test-suite spec
       Diferencia_simetrica_Spec
       Digitos_pares_de_cuadrados_Spec
       Distancia_de_Hamming_Spec
+      Divisiones_del_circulo_Spec
       Divisores_compuestos_Spec
       Divisores_propios_maximales_Spec
       El_2019_es_apocaliptico_Spec
