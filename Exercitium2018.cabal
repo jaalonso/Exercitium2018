@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: a9bd5413ce8cd15a00c5bb7955c41c5981149e3c387873b5b36ed535219755f9
+-- hash: 9ba8e8c2e5d804a54084df50eeea9447340596c86f828169999a3f2728d55e31
 
 name:           Exercitium2018
 version:        0.1.0.0
@@ -55,6 +55,7 @@ library
       Exterior_de_arboles
       Grado_exponencial
       Impares_en_filas_del_triangulo_de_Pascal
+      Inserciones_en_una_lista_de_listas
       Intercambio_de_la_primera_y_ultima_columna_de_una_matriz
       Interseccion_de_listas_infinitas_crecientes
       Limites_de_sucesiones
@@ -151,6 +152,7 @@ test-suite spec
       Exterior_de_arboles_Spec
       Grado_exponencial_Spec
       Impares_en_filas_del_triangulo_de_Pascal_Spec
+      Inserciones_en_una_lista_de_listas_Spec
       Intercambio_de_la_primera_y_ultima_columna_de_una_matriz_Spec
       Interseccion_de_listas_infinitas_crecientes_Spec
       Limites_de_sucesiones_Spec
