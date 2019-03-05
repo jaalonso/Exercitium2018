@@ -1,8 +1,10 @@
--- This file has been generated from package.yaml by hpack version 0.28.2.
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.1.
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 9ba8e8c2e5d804a54084df50eeea9447340596c86f828169999a3f2728d55e31
+-- hash: 870a013f41de5a1cb954ef5356e801d06996265314df36cc1bf4d3393dc3b8ae
 
 name:           Exercitium2018
 version:        0.1.0.0
@@ -17,7 +19,6 @@ copyright:      Jose A. Alonso
 license:        BSD3
 license-file:   LICENSE
 build-type:     Simple
-cabal-version:  >= 1.10
 extra-source-files:
     README.org
 
@@ -82,6 +83,7 @@ library
       Numeros_primos_sumas_de_dos_primos
       Ofertas_3_por_2
       Particiones_de_enteros_positivos
+      Particiones_de_un_conjunto
       Posiciones_del_2019_en_el_numero_pi
       Posiciones_en_arboles_binarios
       Posiciones_en_arboles_binarios_completos
