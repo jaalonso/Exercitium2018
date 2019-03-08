@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: e5dcc6413f12f59369690f8643684072c9684fe62c07a8b605c46e3d9a1509ab
+-- hash: e8ba71a59d29f0a8803dcb72e7488150ac23419e85125be548fab4f7a5a1fc62
 
 name:           Exercitium2018
 version:        0.1.0.0
@@ -38,6 +38,7 @@ library
       Calculo_de_pi_mediante_la_serie_de_Nilakantha
       Capicuas_productos_de_dos_numeros_de_dos_digitos
       Ceros_finales_del_factorial
+      Descomposiciones_en_sumas_de_cuadrados
       Diferencia_simetrica
       Digitos_pares_de_cuadrados
       Distancia_de_Hamming
@@ -70,6 +71,7 @@ library
       Minimo_producto_escalar
       Numeracion_de_arboles_binarios_completos
       Numeracion_de_ternas
+      Numero_de_descomposiciones_en_sumas_de_cuadrados
       Numero_de_divisores_compuestos
       Numero_de_particiones_de_un_conjunto
       Numero_de_sumandos_en_suma_de_cuadrados
@@ -137,6 +139,7 @@ test-suite spec
       Calculo_de_pi_mediante_la_serie_de_Nilakantha_Spec
       Capicuas_productos_de_dos_numeros_de_dos_digitos_Spec
       Ceros_finales_del_factorial_Spec
+      Descomposiciones_en_sumas_de_cuadrados_Spec
       Diferencia_simetrica_Spec
       Digitos_pares_de_cuadrados_Spec
       Distancia_de_Hamming_Spec
@@ -169,6 +172,7 @@ test-suite spec
       Minimo_producto_escalar_Spec
       Numeracion_de_ternas_Spec
       Numero_de_divisores_compuestos_Spec
+      Numero_de_particiones_de_un_conjunto_Spec
       Numero_de_sumandos_en_suma_de_cuadrados_Spec
       Numeros_altamente_compuestos_Spec
       Numeros_autodescriptivos_Spec
