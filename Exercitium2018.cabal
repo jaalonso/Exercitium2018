@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: e8ba71a59d29f0a8803dcb72e7488150ac23419e85125be548fab4f7a5a1fc62
+-- hash: db68f202688ca9c6e82f8934869db72355457e7bbed0c3b871605e6e2cd061dd
 
 name:           Exercitium2018
 version:        0.1.0.0
@@ -56,10 +56,12 @@ library
       Expresiones_aritméticas_generales
       Exterior_de_arboles
       Grado_exponencial
+      Hojas_con_caminos_no_decrecientes
       Impares_en_filas_del_triangulo_de_Pascal
       Inserciones_en_una_lista_de_listas
       Intercambio_de_la_primera_y_ultima_columna_de_una_matriz
       Interseccion_de_listas_infinitas_crecientes
+      Las_torres_de_Hanoi
       Limites_de_sucesiones
       Listas_equidigitales
       Mayor_exponente
@@ -157,6 +159,7 @@ test-suite spec
       Expresiones_aritméticas_generales_Spec
       Exterior_de_arboles_Spec
       Grado_exponencial_Spec
+      Hojas_con_caminos_no_decrecientes_Spec
       Impares_en_filas_del_triangulo_de_Pascal_Spec
       Inserciones_en_una_lista_de_listas_Spec
       Intercambio_de_la_primera_y_ultima_columna_de_una_matriz_Spec
@@ -171,6 +174,7 @@ test-suite spec
       Minimo_numero_de_operaciones_para_transformar_un_numero_en_otro_Spec
       Minimo_producto_escalar_Spec
       Numeracion_de_ternas_Spec
+      Numero_de_descomposiciones_en_sumas_de_cuadrados_Spec
       Numero_de_divisores_compuestos_Spec
       Numero_de_particiones_de_un_conjunto_Spec
       Numero_de_sumandos_en_suma_de_cuadrados_Spec
