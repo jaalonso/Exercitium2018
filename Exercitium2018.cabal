@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: db68f202688ca9c6e82f8934869db72355457e7bbed0c3b871605e6e2cd061dd
+-- hash: 96043e96705193005143823bcb1927e2013ffac342c6b308ad6302197b5e1deb
 
 name:           Exercitium2018
 version:        0.1.0.0
@@ -73,6 +73,7 @@ library
       Minimo_producto_escalar
       Numeracion_de_arboles_binarios_completos
       Numeracion_de_ternas
+      Numero_como_suma_de_sus_digitos
       Numero_de_descomposiciones_en_sumas_de_cuadrados
       Numero_de_divisores_compuestos
       Numero_de_particiones_de_un_conjunto
@@ -164,6 +165,7 @@ test-suite spec
       Inserciones_en_una_lista_de_listas_Spec
       Intercambio_de_la_primera_y_ultima_columna_de_una_matriz_Spec
       Interseccion_de_listas_infinitas_crecientes_Spec
+      Las_torres_de_Hanoi_Spec
       Limites_de_sucesiones_Spec
       Listas_equidigitales_Spec
       Mayor_exponente_Spec
@@ -174,6 +176,7 @@ test-suite spec
       Minimo_numero_de_operaciones_para_transformar_un_numero_en_otro_Spec
       Minimo_producto_escalar_Spec
       Numeracion_de_ternas_Spec
+      Numero_como_suma_de_sus_digitos_Spec
       Numero_de_descomposiciones_en_sumas_de_cuadrados_Spec
       Numero_de_divisores_compuestos_Spec
       Numero_de_particiones_de_un_conjunto_Spec
