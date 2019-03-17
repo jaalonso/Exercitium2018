@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 96043e96705193005143823bcb1927e2013ffac342c6b308ad6302197b5e1deb
+-- hash: c38db840ec7c5a8ed802080a04c01908cd717218fdcfb90d1817fc2a47a1c7ee
 
 name:           Exercitium2018
 version:        0.1.0.0
@@ -36,6 +36,7 @@ library
       Aritmetica_lunar
       Cadena_descendiente_de_subnumeros
       Calculo_de_pi_mediante_la_serie_de_Nilakantha
+      Camino_de_maxima_suma_en_una_matriz
       Capicuas_productos_de_dos_numeros_de_dos_digitos
       Ceros_finales_del_factorial
       Descomposiciones_en_sumas_de_cuadrados
@@ -105,6 +106,7 @@ library
       Sucesion_de_Cantor_de_numeros_innombrables
       Sucesion_triangular
       Suma_de_inversos_de_potencias_de_cuatro
+      Suma_de_segmentos_iniciales
       Sumas_de_dos_abundantes
       Superacion_de_limites
       Tablas_de_operaciones_binarias
@@ -125,6 +127,7 @@ library
     , gnuplot
     , hspec
     , hspec-core
+    , matrix
     , primes
   default-language: Haskell2010
 
@@ -208,6 +211,7 @@ test-suite spec
       Sucesion_de_Cantor_de_numeros_innombrables_Spec
       Sucesion_triangular_Spec
       Suma_de_inversos_de_potencias_de_cuatro_Spec
+      Suma_de_segmentos_iniciales_Spec
       Sumas_de_dos_abundantes_Spec
       Superacion_de_limites_Spec
       Tablas_de_operaciones_binarias_Spec
@@ -228,5 +232,6 @@ test-suite spec
     , gnuplot
     , hspec
     , hspec-core
+    , matrix
     , primes
   default-language: Haskell2010

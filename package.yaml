@@ -18,6 +18,7 @@ dependencies:
   - gnuplot
   - hspec
   - hspec-core
+  - matrix 
   - primes
   - QuickCheck >=2.9.2
 library:
