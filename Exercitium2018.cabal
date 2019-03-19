@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 5328c3ad794d4d4112b16bda941b47460f89661db6d6d47a1302d631c754c9f4
+-- hash: f20b84206255c51bda8d1fe4caec2652247bd799897309856ebe06a5e9cd8c96
 
 name:           Exercitium2018
 version:        0.1.0.0
@@ -82,6 +82,7 @@ library
       Numero_de_sumandos_en_suma_de_cuadrados
       Numeros_altamente_compuestos
       Numeros_autodescriptivos
+      Numeros_ciclopes
       Numeros_colinas
       Numeros_con_digitos_1_y_2
       Numeros_de_parejas
