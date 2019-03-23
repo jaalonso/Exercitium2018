@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: f20b84206255c51bda8d1fe4caec2652247bd799897309856ebe06a5e9cd8c96
+-- hash: 6c4cccc4251d69469fef9108d0657cfef89b6a685d5bb82eec120c436d149d2e
 
 name:           Exercitium2018
 version:        0.1.0.0
@@ -36,11 +36,13 @@ library
       Aritmetica_lunar
       Cadena_descendiente_de_subnumeros
       Calculo_de_pi_mediante_la_serie_de_Nilakantha
+      Cambio_con_el_menor_numero_de_monedas
       Camino_de_maxima_suma_en_una_matriz
       Capicuas_productos_de_dos_numeros_de_dos_digitos
       Ceros_finales_del_factorial
       Combinaciones_divisibles
       Descomposiciones_en_sumas_de_cuadrados
+      Diagonales_invertidas
       Diferencia_simetrica
       Digitos_pares_de_cuadrados
       Distancia_de_Hamming
@@ -66,6 +68,7 @@ library
       Las_torres_de_Hanoi
       Limites_de_sucesiones
       Listas_equidigitales
+      Maxima_longitud_de_sublistas_crecientes
       Mayor_exponente
       Mayor_prefijo_con_suma_acotada
       Medias_de_digitos_de_pi
@@ -145,11 +148,13 @@ test-suite spec
       Aritmetica_lunar_Spec
       Cadena_descendiente_de_subnumeros_Spec
       Calculo_de_pi_mediante_la_serie_de_Nilakantha_Spec
+      Cambio_con_el_menor_numero_de_monedas_Spec
       Camino_de_maxima_suma_en_una_matriz_Spec
       Capicuas_productos_de_dos_numeros_de_dos_digitos_Spec
       Ceros_finales_del_factorial_Spec
       Combinaciones_divisibles_Spec
       Descomposiciones_en_sumas_de_cuadrados_Spec
+      Diagonales_invertidas_Spec
       Diferencia_simetrica_Spec
       Digitos_pares_de_cuadrados_Spec
       Distancia_de_Hamming_Spec
@@ -175,6 +180,7 @@ test-suite spec
       Las_torres_de_Hanoi_Spec
       Limites_de_sucesiones_Spec
       Listas_equidigitales_Spec
+      Maxima_longitud_de_sublistas_crecientes_Spec
       Mayor_exponente_Spec
       Mayor_prefijo_con_suma_acotada_Spec
       Medias_de_digitos_de_pi_Spec
@@ -190,6 +196,7 @@ test-suite spec
       Numero_de_sumandos_en_suma_de_cuadrados_Spec
       Numeros_altamente_compuestos_Spec
       Numeros_autodescriptivos_Spec
+      Numeros_ciclopes_Spec
       Numeros_colinas_Spec
       Numeros_con_digitos_1_y_2_Spec
       Numeros_de_parejas_Spec
