@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 6c4cccc4251d69469fef9108d0657cfef89b6a685d5bb82eec120c436d149d2e
+-- hash: db2b9785dfeb5cfd72d4dcfb7897b0ca66f69ad8a339843fe6143291860ded1b
 
 name:           Exercitium2018
 version:        0.1.0.0
@@ -96,6 +96,7 @@ library
       Ofertas_3_por_2
       Particiones_de_enteros_positivos
       Particiones_de_un_conjunto
+      Permutacion_de_consecutivos
       Posiciones_del_2019_en_el_numero_pi
       Posiciones_en_arboles_binarios
       Posiciones_en_arboles_binarios_completos
@@ -207,6 +208,7 @@ test-suite spec
       Ofertas_3_por_2_Spec
       Particiones_de_enteros_positivos_Spec
       Particiones_de_un_conjunto_Spec
+      Permutacion_de_consecutivos_Spec
       Posiciones_del_2019_en_el_numero_pi_Spec
       Posiciones_en_arboles_binarios_completos_Spec
       Posiciones_en_arboles_binarios_Spec
