@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: db2b9785dfeb5cfd72d4dcfb7897b0ca66f69ad8a339843fe6143291860ded1b
+-- hash: 89d07dbbb64b3013dbc8dcc0921e337b97402031b7dfb7fcc8b5cc8678a2d5c1
 
 name:           Exercitium2018
 version:        0.1.0.0
@@ -38,6 +38,7 @@ library
       Calculo_de_pi_mediante_la_serie_de_Nilakantha
       Cambio_con_el_menor_numero_de_monedas
       Camino_de_maxima_suma_en_una_matriz
+      Caminos_minimales_en_un_arbol_numerico
       Capicuas_productos_de_dos_numeros_de_dos_digitos
       Ceros_finales_del_factorial
       Combinaciones_divisibles
@@ -65,9 +66,11 @@ library
       Inserciones_en_una_lista_de_listas
       Intercambio_de_la_primera_y_ultima_columna_de_una_matriz
       Interseccion_de_listas_infinitas_crecientes
+      La_sucesion_ECG
       Las_torres_de_Hanoi
       Limites_de_sucesiones
       Listas_equidigitales
+      Matriz_de_minimas_distancias
       Maxima_longitud_de_sublistas_crecientes
       Mayor_exponente
       Mayor_prefijo_con_suma_acotada
@@ -106,6 +109,7 @@ library
       Recorrido_de_arboles_en_espiral
       Relacion_definida_por_una_particion
       Representacion_de_conjuntos_mediante_intervalos
+      Siguiente_mayor
       Simplificacion_de_expresiones_booleanas
       Soluciones_de_x2y3k
       Subarboles_monovalorados
@@ -129,6 +133,7 @@ library
       QuickCheck >=2.9.2
     , array >=0.5
     , base >=4.7 && <5
+    , containers
     , directory
     , gnuplot
     , hspec
@@ -151,6 +156,7 @@ test-suite spec
       Calculo_de_pi_mediante_la_serie_de_Nilakantha_Spec
       Cambio_con_el_menor_numero_de_monedas_Spec
       Camino_de_maxima_suma_en_una_matriz_Spec
+      Caminos_minimales_en_un_arbol_numerico_Spec
       Capicuas_productos_de_dos_numeros_de_dos_digitos_Spec
       Ceros_finales_del_factorial_Spec
       Combinaciones_divisibles_Spec
@@ -178,6 +184,7 @@ test-suite spec
       Inserciones_en_una_lista_de_listas_Spec
       Intercambio_de_la_primera_y_ultima_columna_de_una_matriz_Spec
       Interseccion_de_listas_infinitas_crecientes_Spec
+      La_sucesion_ECG_Spec
       Las_torres_de_Hanoi_Spec
       Limites_de_sucesiones_Spec
       Listas_equidigitales_Spec
@@ -218,6 +225,7 @@ test-suite spec
       Recorrido_de_arboles_en_espiral_Spec
       Relacion_definida_por_una_particion_Spec
       Representacion_de_conjuntos_mediante_intervalos_Spec
+      Siguiente_mayor_Spec
       Simplificacion_de_expresiones_booleanas_Spec
       Soluciones_de_x2y3k_Spec
       Subarboles_monovalorados_Spec
@@ -241,6 +249,7 @@ test-suite spec
     , QuickCheck >=2.9.2
     , array >=0.5
     , base
+    , containers
     , directory
     , gnuplot
     , hspec
