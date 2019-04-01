@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 89d07dbbb64b3013dbc8dcc0921e337b97402031b7dfb7fcc8b5cc8678a2d5c1
+-- hash: 16763c0f1db35539d5d9911ccc85d9e13fdef4cee4fdac14c11ff3bb682fb8e6
 
 name:           Exercitium2018
 version:        0.1.0.0
@@ -54,6 +54,7 @@ library
       El_2019_es_malvado
       El_2019_es_semiprimo
       El_2019_es_un_numero_de_la_suerte
+      El_problema_del_numero_perdido
       El_teorema_de_Navidad_de_Fermat
       Elemento_del_arbol_binario_completo_segun_su_posicion
       Elemento_solitario
@@ -188,6 +189,7 @@ test-suite spec
       Las_torres_de_Hanoi_Spec
       Limites_de_sucesiones_Spec
       Listas_equidigitales_Spec
+      Matriz_de_minimas_distancias_Spec
       Maxima_longitud_de_sublistas_crecientes_Spec
       Mayor_exponente_Spec
       Mayor_prefijo_con_suma_acotada_Spec
